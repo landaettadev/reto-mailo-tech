@@ -1,0 +1,4004 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": "BLUGRM200001",
+      "nombre": "Blusa",
+      "precioCOP": 112528,
+      "color": "Gris",
+      "talla": "M",
+      "año": 2020,
+      "stock": 36
+    },
+    {
+      "id": 2,
+      "sku": "JEABLXL220002",
+      "nombre": "Jeans",
+      "precioCOP": 100353,
+      "color": "Blanco",
+      "talla": "XL",
+      "año": 2022,
+      "stock": 3
+    },
+    {
+      "id": 3,
+      "sku": "JEAAMXS200003",
+      "nombre": "Jeans",
+      "precioCOP": 129136,
+      "color": "Amarillo",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 100
+    },
+    {
+      "id": 4,
+      "sku": "JEANAXXL240004",
+      "nombre": "Jeans",
+      "precioCOP": 171145,
+      "color": "Naranja",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 6
+    },
+    {
+      "id": 5,
+      "sku": "JOGGRM230005",
+      "nombre": "Jogger",
+      "precioCOP": 135452,
+      "color": "Gris",
+      "talla": "M",
+      "año": 2023,
+      "stock": 87
+    },
+    {
+      "id": 6,
+      "sku": "JEAROXL210006",
+      "nombre": "Jeans",
+      "precioCOP": 203137,
+      "color": "Rojo",
+      "talla": "XL",
+      "año": 2021,
+      "stock": 14
+    },
+    {
+      "id": 7,
+      "sku": "CHAMAXXL200007",
+      "nombre": "Chaqueta",
+      "precioCOP": 124314,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 93
+    },
+    {
+      "id": 8,
+      "sku": "BERROXL210008",
+      "nombre": "Bermuda",
+      "precioCOP": 184905,
+      "color": "Rojo",
+      "talla": "XL",
+      "año": 2021,
+      "stock": 81
+    },
+    {
+      "id": 9,
+      "sku": "JOGAZL230009",
+      "nombre": "Jogger",
+      "precioCOP": 215659,
+      "color": "Azul",
+      "talla": "L",
+      "año": 2023,
+      "stock": 68
+    },
+    {
+      "id": 10,
+      "sku": "LEGAZXS220010",
+      "nombre": "Leggins",
+      "precioCOP": 77047,
+      "color": "Azul",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 56
+    },
+    {
+      "id": 11,
+      "sku": "JEAAZXXL200011",
+      "nombre": "Jeans",
+      "precioCOP": 39878,
+      "color": "Azul",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 44
+    },
+    {
+      "id": 12,
+      "sku": "PARMAXXL210012",
+      "nombre": "Parka",
+      "precioCOP": 171774,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2021,
+      "stock": 93
+    },
+    {
+      "id": 13,
+      "sku": "LEGVEM240013",
+      "nombre": "Leggins",
+      "precioCOP": 132694,
+      "color": "Verde",
+      "talla": "M",
+      "año": 2024,
+      "stock": 8
+    },
+    {
+      "id": 14,
+      "sku": "CAMVEM190014",
+      "nombre": "Camiseta",
+      "precioCOP": 205022,
+      "color": "Verde",
+      "talla": "M",
+      "año": 2019,
+      "stock": 18
+    },
+    {
+      "id": 15,
+      "sku": "TOPVEL210015",
+      "nombre": "Top",
+      "precioCOP": 59623,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2021,
+      "stock": 87
+    },
+    {
+      "id": 16,
+      "sku": "PARBLXL240016",
+      "nombre": "Parka",
+      "precioCOP": 32740,
+      "color": "Blanco",
+      "talla": "XL",
+      "año": 2024,
+      "stock": 89
+    },
+    {
+      "id": 17,
+      "sku": "MONNEXS220017",
+      "nombre": "Mono",
+      "precioCOP": 175377,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 76
+    },
+    {
+      "id": 18,
+      "sku": "SUÉNEM230018",
+      "nombre": "Suéter",
+      "precioCOP": 94868,
+      "color": "Negro",
+      "talla": "M",
+      "año": 2023,
+      "stock": 54
+    },
+    {
+      "id": 19,
+      "sku": "VESBLXXL200019",
+      "nombre": "Vestido",
+      "precioCOP": 48887,
+      "color": "Blanco",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 35
+    },
+    {
+      "id": 20,
+      "sku": "CAMMAXXL220020",
+      "nombre": "Camiseta",
+      "precioCOP": 102276,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 4
+    },
+    {
+      "id": 21,
+      "sku": "CHANEXS210021",
+      "nombre": "Chaleco",
+      "precioCOP": 35323,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 35
+    },
+    {
+      "id": 22,
+      "sku": "SHOGRXL220022",
+      "nombre": "Short",
+      "precioCOP": 123444,
+      "color": "Gris",
+      "talla": "XL",
+      "año": 2022,
+      "stock": 63
+    },
+    {
+      "id": 23,
+      "sku": "BLUAML190023",
+      "nombre": "Blusa",
+      "precioCOP": 181382,
+      "color": "Amarillo",
+      "talla": "L",
+      "año": 2019,
+      "stock": 6
+    },
+    {
+      "id": 24,
+      "sku": "TOPAMM200024",
+      "nombre": "Top",
+      "precioCOP": 168777,
+      "color": "Amarillo",
+      "talla": "M",
+      "año": 2020,
+      "stock": 76
+    },
+    {
+      "id": 25,
+      "sku": "JEABLL240025",
+      "nombre": "Jeans",
+      "precioCOP": 142729,
+      "color": "Blanco",
+      "talla": "L",
+      "año": 2024,
+      "stock": 13
+    },
+    {
+      "id": 26,
+      "sku": "JEAROS210026",
+      "nombre": "Jeans",
+      "precioCOP": 137096,
+      "color": "Rojo",
+      "talla": "S",
+      "año": 2021,
+      "stock": 79
+    },
+    {
+      "id": 27,
+      "sku": "SUÉMAXS240027",
+      "nombre": "Suéter",
+      "precioCOP": 152740,
+      "color": "Marrón",
+      "talla": "XS",
+      "año": 2024,
+      "stock": 57
+    },
+    {
+      "id": 28,
+      "sku": "PANAMM210028",
+      "nombre": "Pantalón",
+      "precioCOP": 209470,
+      "color": "Amarillo",
+      "talla": "M",
+      "año": 2021,
+      "stock": 85
+    },
+    {
+      "id": 29,
+      "sku": "CAMNEXL210029",
+      "nombre": "Camisa",
+      "precioCOP": 131414,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2021,
+      "stock": 85
+    },
+    {
+      "id": 30,
+      "sku": "LEGMOS200030",
+      "nombre": "Leggins",
+      "precioCOP": 205281,
+      "color": "Morado",
+      "talla": "S",
+      "año": 2020,
+      "stock": 99
+    },
+    {
+      "id": 31,
+      "sku": "FALAMXS190031",
+      "nombre": "Falda",
+      "precioCOP": 193358,
+      "color": "Amarillo",
+      "talla": "XS",
+      "año": 2019,
+      "stock": 69
+    },
+    {
+      "id": 32,
+      "sku": "PANNEXS240032",
+      "nombre": "Pantalón",
+      "precioCOP": 89795,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2024,
+      "stock": 17
+    },
+    {
+      "id": 33,
+      "sku": "CHAGRS200033",
+      "nombre": "Chaqueta",
+      "precioCOP": 184285,
+      "color": "Gris",
+      "talla": "S",
+      "año": 2020,
+      "stock": 65
+    },
+    {
+      "id": 34,
+      "sku": "JOGNEL230034",
+      "nombre": "Jogger",
+      "precioCOP": 170787,
+      "color": "Negro",
+      "talla": "L",
+      "año": 2023,
+      "stock": 83
+    },
+    {
+      "id": 35,
+      "sku": "CAMAMXS220035",
+      "nombre": "Camisa",
+      "precioCOP": 202204,
+      "color": "Amarillo",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 72
+    },
+    {
+      "id": 36,
+      "sku": "SUDMAS200036",
+      "nombre": "Sudadera",
+      "precioCOP": 182475,
+      "color": "Marrón",
+      "talla": "S",
+      "año": 2020,
+      "stock": 90
+    },
+    {
+      "id": 37,
+      "sku": "JOGROXL220037",
+      "nombre": "Jogger",
+      "precioCOP": 143801,
+      "color": "Rojo",
+      "talla": "XL",
+      "año": 2022,
+      "stock": 29
+    },
+    {
+      "id": 38,
+      "sku": "PARVEL220038",
+      "nombre": "Parka",
+      "precioCOP": 182356,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2022,
+      "stock": 85
+    },
+    {
+      "id": 39,
+      "sku": "MONMOL190039",
+      "nombre": "Mono",
+      "precioCOP": 227268,
+      "color": "Morado",
+      "talla": "L",
+      "año": 2019,
+      "stock": 3
+    },
+    {
+      "id": 40,
+      "sku": "CAMROXS210040",
+      "nombre": "Camiseta",
+      "precioCOP": 155798,
+      "color": "Rojo",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 25
+    },
+    {
+      "id": 41,
+      "sku": "JOGAZL220041",
+      "nombre": "Jogger",
+      "precioCOP": 126007,
+      "color": "Azul",
+      "talla": "L",
+      "año": 2022,
+      "stock": 68
+    },
+    {
+      "id": 42,
+      "sku": "ABRAML240042",
+      "nombre": "Abrigo",
+      "precioCOP": 137044,
+      "color": "Amarillo",
+      "talla": "L",
+      "año": 2024,
+      "stock": 16
+    },
+    {
+      "id": 43,
+      "sku": "LEGBLM190043",
+      "nombre": "Leggins",
+      "precioCOP": 187212,
+      "color": "Blanco",
+      "talla": "M",
+      "año": 2019,
+      "stock": 45
+    },
+    {
+      "id": 44,
+      "sku": "PARGRS240044",
+      "nombre": "Parka",
+      "precioCOP": 209634,
+      "color": "Gris",
+      "talla": "S",
+      "año": 2024,
+      "stock": 81
+    },
+    {
+      "id": 45,
+      "sku": "SUÉBLS190045",
+      "nombre": "Suéter",
+      "precioCOP": 225602,
+      "color": "Blanco",
+      "talla": "S",
+      "año": 2019,
+      "stock": 91
+    },
+    {
+      "id": 46,
+      "sku": "BLUBLS220046",
+      "nombre": "Blusa",
+      "precioCOP": 95842,
+      "color": "Blanco",
+      "talla": "S",
+      "año": 2022,
+      "stock": 58
+    },
+    {
+      "id": 47,
+      "sku": "MONVEXL210047",
+      "nombre": "Mono",
+      "precioCOP": 230195,
+      "color": "Verde",
+      "talla": "XL",
+      "año": 2021,
+      "stock": 19
+    },
+    {
+      "id": 48,
+      "sku": "ABRNEXXL220048",
+      "nombre": "Abrigo",
+      "precioCOP": 190013,
+      "color": "Negro",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 36
+    },
+    {
+      "id": 49,
+      "sku": "JEAMOXL190049",
+      "nombre": "Jeans",
+      "precioCOP": 105747,
+      "color": "Morado",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 74
+    },
+    {
+      "id": 50,
+      "sku": "VESAZXXL230050",
+      "nombre": "Vestido",
+      "precioCOP": 205391,
+      "color": "Azul",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 70
+    },
+    {
+      "id": 51,
+      "sku": "SUDNEM240051",
+      "nombre": "Sudadera",
+      "precioCOP": 243516,
+      "color": "Negro",
+      "talla": "M",
+      "año": 2024,
+      "stock": 63
+    },
+    {
+      "id": 52,
+      "sku": "LEGMAS220052",
+      "nombre": "Leggins",
+      "precioCOP": 224867,
+      "color": "Marrón",
+      "talla": "S",
+      "año": 2022,
+      "stock": 24
+    },
+    {
+      "id": 53,
+      "sku": "POLBLM190053",
+      "nombre": "Polo",
+      "precioCOP": 229471,
+      "color": "Blanco",
+      "talla": "M",
+      "año": 2019,
+      "stock": 60
+    },
+    {
+      "id": 54,
+      "sku": "CHANEXL230054",
+      "nombre": "Chaqueta",
+      "precioCOP": 182244,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 91
+    },
+    {
+      "id": 55,
+      "sku": "JEABLM200055",
+      "nombre": "Jeans",
+      "precioCOP": 121622,
+      "color": "Blanco",
+      "talla": "M",
+      "año": 2020,
+      "stock": 44
+    },
+    {
+      "id": 56,
+      "sku": "VESMAS240056",
+      "nombre": "Vestido",
+      "precioCOP": 61940,
+      "color": "Marrón",
+      "talla": "S",
+      "año": 2024,
+      "stock": 93
+    },
+    {
+      "id": 57,
+      "sku": "TOPNEXS230057",
+      "nombre": "Top",
+      "precioCOP": 45813,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 70
+    },
+    {
+      "id": 58,
+      "sku": "ABRVEL230058",
+      "nombre": "Abrigo",
+      "precioCOP": 36791,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2023,
+      "stock": 45
+    },
+    {
+      "id": 59,
+      "sku": "BLUROXS210059",
+      "nombre": "Blusa",
+      "precioCOP": 214333,
+      "color": "Rojo",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 41
+    },
+    {
+      "id": 60,
+      "sku": "ABRNAM220060",
+      "nombre": "Abrigo",
+      "precioCOP": 166856,
+      "color": "Naranja",
+      "talla": "M",
+      "año": 2022,
+      "stock": 37
+    },
+    {
+      "id": 61,
+      "sku": "CAMROXS220061",
+      "nombre": "Camisa",
+      "precioCOP": 88516,
+      "color": "Rojo",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 67
+    },
+    {
+      "id": 62,
+      "sku": "CHAMOXS210062",
+      "nombre": "Chaleco",
+      "precioCOP": 117412,
+      "color": "Morado",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 87
+    },
+    {
+      "id": 63,
+      "sku": "CAMGRXS230063",
+      "nombre": "Camisa",
+      "precioCOP": 230598,
+      "color": "Gris",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 55
+    },
+    {
+      "id": 64,
+      "sku": "CAMAZXL230064",
+      "nombre": "Camiseta",
+      "precioCOP": 80090,
+      "color": "Azul",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 24
+    },
+    {
+      "id": 65,
+      "sku": "FALVES190065",
+      "nombre": "Falda",
+      "precioCOP": 78620,
+      "color": "Verde",
+      "talla": "S",
+      "año": 2019,
+      "stock": 10
+    },
+    {
+      "id": 66,
+      "sku": "SHOVEXS210066",
+      "nombre": "Short",
+      "precioCOP": 109135,
+      "color": "Verde",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 34
+    },
+    {
+      "id": 67,
+      "sku": "JEAMOM200067",
+      "nombre": "Jeans",
+      "precioCOP": 56084,
+      "color": "Morado",
+      "talla": "M",
+      "año": 2020,
+      "stock": 15
+    },
+    {
+      "id": 68,
+      "sku": "SUÉMOXXL220068",
+      "nombre": "Suéter",
+      "precioCOP": 143925,
+      "color": "Morado",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 100
+    },
+    {
+      "id": 69,
+      "sku": "BLUBLXXL220069",
+      "nombre": "Blusa",
+      "precioCOP": 232499,
+      "color": "Blanco",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 18
+    },
+    {
+      "id": 70,
+      "sku": "CAMVEXXL230070",
+      "nombre": "Camisa",
+      "precioCOP": 189876,
+      "color": "Verde",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 24
+    },
+    {
+      "id": 71,
+      "sku": "CHAROL190071",
+      "nombre": "Chaqueta",
+      "precioCOP": 168884,
+      "color": "Rojo",
+      "talla": "L",
+      "año": 2019,
+      "stock": 3
+    },
+    {
+      "id": 72,
+      "sku": "PANNAXS240072",
+      "nombre": "Pantalón",
+      "precioCOP": 54278,
+      "color": "Naranja",
+      "talla": "XS",
+      "año": 2024,
+      "stock": 50
+    },
+    {
+      "id": 73,
+      "sku": "FALNAXXL230073",
+      "nombre": "Falda",
+      "precioCOP": 132540,
+      "color": "Naranja",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 59
+    },
+    {
+      "id": 74,
+      "sku": "SUÉAZL220074",
+      "nombre": "Suéter",
+      "precioCOP": 131948,
+      "color": "Azul",
+      "talla": "L",
+      "año": 2022,
+      "stock": 25
+    },
+    {
+      "id": 75,
+      "sku": "CHAMOS230075",
+      "nombre": "Chaleco",
+      "precioCOP": 136687,
+      "color": "Morado",
+      "talla": "S",
+      "año": 2023,
+      "stock": 13
+    },
+    {
+      "id": 76,
+      "sku": "MONBLXS210076",
+      "nombre": "Mono",
+      "precioCOP": 163653,
+      "color": "Blanco",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 66
+    },
+    {
+      "id": 77,
+      "sku": "JOGROL210077",
+      "nombre": "Jogger",
+      "precioCOP": 245920,
+      "color": "Rojo",
+      "talla": "L",
+      "año": 2021,
+      "stock": 97
+    },
+    {
+      "id": 78,
+      "sku": "BERAZXL220078",
+      "nombre": "Bermuda",
+      "precioCOP": 213160,
+      "color": "Azul",
+      "talla": "XL",
+      "año": 2022,
+      "stock": 54
+    },
+    {
+      "id": 79,
+      "sku": "VESGRS190079",
+      "nombre": "Vestido",
+      "precioCOP": 114259,
+      "color": "Gris",
+      "talla": "S",
+      "año": 2019,
+      "stock": 97
+    },
+    {
+      "id": 80,
+      "sku": "FALNAXL190080",
+      "nombre": "Falda",
+      "precioCOP": 244206,
+      "color": "Naranja",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 37
+    },
+    {
+      "id": 81,
+      "sku": "PANAZXS210081",
+      "nombre": "Pantalón",
+      "precioCOP": 102572,
+      "color": "Azul",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 5
+    },
+    {
+      "id": 82,
+      "sku": "LEGAZM230082",
+      "nombre": "Leggins",
+      "precioCOP": 99821,
+      "color": "Azul",
+      "talla": "M",
+      "año": 2023,
+      "stock": 47
+    },
+    {
+      "id": 83,
+      "sku": "BERBLS190083",
+      "nombre": "Bermuda",
+      "precioCOP": 244173,
+      "color": "Blanco",
+      "talla": "S",
+      "año": 2019,
+      "stock": 66
+    },
+    {
+      "id": 84,
+      "sku": "CHAAZXL220084",
+      "nombre": "Chaleco",
+      "precioCOP": 211064,
+      "color": "Azul",
+      "talla": "XL",
+      "año": 2022,
+      "stock": 92
+    },
+    {
+      "id": 85,
+      "sku": "PANVEM240085",
+      "nombre": "Pantalón",
+      "precioCOP": 167633,
+      "color": "Verde",
+      "talla": "M",
+      "año": 2024,
+      "stock": 6
+    },
+    {
+      "id": 86,
+      "sku": "TOPGRM190086",
+      "nombre": "Top",
+      "precioCOP": 114093,
+      "color": "Gris",
+      "talla": "M",
+      "año": 2019,
+      "stock": 89
+    },
+    {
+      "id": 87,
+      "sku": "TOPMAL210087",
+      "nombre": "Top",
+      "precioCOP": 205923,
+      "color": "Marrón",
+      "talla": "L",
+      "año": 2021,
+      "stock": 44
+    },
+    {
+      "id": 88,
+      "sku": "PARMOXS240088",
+      "nombre": "Parka",
+      "precioCOP": 162827,
+      "color": "Morado",
+      "talla": "XS",
+      "año": 2024,
+      "stock": 39
+    },
+    {
+      "id": 89,
+      "sku": "FALVEL240089",
+      "nombre": "Falda",
+      "precioCOP": 213334,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2024,
+      "stock": 33
+    },
+    {
+      "id": 90,
+      "sku": "TOPGRM240090",
+      "nombre": "Top",
+      "precioCOP": 95247,
+      "color": "Gris",
+      "talla": "M",
+      "año": 2024,
+      "stock": 2
+    },
+    {
+      "id": 91,
+      "sku": "SHONEXL220091",
+      "nombre": "Short",
+      "precioCOP": 139814,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2022,
+      "stock": 39
+    },
+    {
+      "id": 92,
+      "sku": "JEABLS210092",
+      "nombre": "Jeans",
+      "precioCOP": 203530,
+      "color": "Blanco",
+      "talla": "S",
+      "año": 2021,
+      "stock": 14
+    },
+    {
+      "id": 93,
+      "sku": "POLAZS190093",
+      "nombre": "Polo",
+      "precioCOP": 187330,
+      "color": "Azul",
+      "talla": "S",
+      "año": 2019,
+      "stock": 50
+    },
+    {
+      "id": 94,
+      "sku": "SHOAZS220094",
+      "nombre": "Short",
+      "precioCOP": 226422,
+      "color": "Azul",
+      "talla": "S",
+      "año": 2022,
+      "stock": 73
+    },
+    {
+      "id": 95,
+      "sku": "BERGRXXL240095",
+      "nombre": "Bermuda",
+      "precioCOP": 112513,
+      "color": "Gris",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 76
+    },
+    {
+      "id": 96,
+      "sku": "CHAVEXXL190096",
+      "nombre": "Chaqueta",
+      "precioCOP": 36496,
+      "color": "Verde",
+      "talla": "XXL",
+      "año": 2019,
+      "stock": 38
+    },
+    {
+      "id": 97,
+      "sku": "JOGAZXS210097",
+      "nombre": "Jogger",
+      "precioCOP": 117359,
+      "color": "Azul",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 90
+    },
+    {
+      "id": 98,
+      "sku": "PANVEXL230098",
+      "nombre": "Pantalón",
+      "precioCOP": 142275,
+      "color": "Verde",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 60
+    },
+    {
+      "id": 99,
+      "sku": "CAMROS210099",
+      "nombre": "Camisa",
+      "precioCOP": 141318,
+      "color": "Rojo",
+      "talla": "S",
+      "año": 2021,
+      "stock": 23
+    },
+    {
+      "id": 100,
+      "sku": "CHAROL240100",
+      "nombre": "Chaqueta",
+      "precioCOP": 52077,
+      "color": "Rojo",
+      "talla": "L",
+      "año": 2024,
+      "stock": 40
+    },
+    {
+      "id": 101,
+      "sku": "SHONAXL190101",
+      "nombre": "Short",
+      "precioCOP": 69732,
+      "color": "Naranja",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 58
+    },
+    {
+      "id": 102,
+      "sku": "CHANAXS230102",
+      "nombre": "Chaleco",
+      "precioCOP": 114161,
+      "color": "Naranja",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 6
+    },
+    {
+      "id": 103,
+      "sku": "SHONES220103",
+      "nombre": "Short",
+      "precioCOP": 232728,
+      "color": "Negro",
+      "talla": "S",
+      "año": 2022,
+      "stock": 81
+    },
+    {
+      "id": 104,
+      "sku": "TOPGRXS220104",
+      "nombre": "Top",
+      "precioCOP": 145121,
+      "color": "Gris",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 5
+    },
+    {
+      "id": 105,
+      "sku": "VESBLXS200105",
+      "nombre": "Vestido",
+      "precioCOP": 230893,
+      "color": "Blanco",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 19
+    },
+    {
+      "id": 106,
+      "sku": "BERVEL200106",
+      "nombre": "Bermuda",
+      "precioCOP": 134875,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2020,
+      "stock": 12
+    },
+    {
+      "id": 107,
+      "sku": "JOGVEXXL240107",
+      "nombre": "Jogger",
+      "precioCOP": 84996,
+      "color": "Verde",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 72
+    },
+    {
+      "id": 108,
+      "sku": "CHANAXXL210108",
+      "nombre": "Chaleco",
+      "precioCOP": 137613,
+      "color": "Naranja",
+      "talla": "XXL",
+      "año": 2021,
+      "stock": 3
+    },
+    {
+      "id": 109,
+      "sku": "PANBLXXL230109",
+      "nombre": "Pantalón",
+      "precioCOP": 197987,
+      "color": "Blanco",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 4
+    },
+    {
+      "id": 110,
+      "sku": "SHOAMM240110",
+      "nombre": "Short",
+      "precioCOP": 73889,
+      "color": "Amarillo",
+      "talla": "M",
+      "año": 2024,
+      "stock": 91
+    },
+    {
+      "id": 111,
+      "sku": "CHABLXXL240111",
+      "nombre": "Chaqueta",
+      "precioCOP": 154932,
+      "color": "Blanco",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 5
+    },
+    {
+      "id": 112,
+      "sku": "JOGVEXS190112",
+      "nombre": "Jogger",
+      "precioCOP": 129659,
+      "color": "Verde",
+      "talla": "XS",
+      "año": 2019,
+      "stock": 43
+    },
+    {
+      "id": 113,
+      "sku": "JEAGRXL190113",
+      "nombre": "Jeans",
+      "precioCOP": 184579,
+      "color": "Gris",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 85
+    },
+    {
+      "id": 114,
+      "sku": "JEAMOM220114",
+      "nombre": "Jeans",
+      "precioCOP": 169880,
+      "color": "Morado",
+      "talla": "M",
+      "año": 2022,
+      "stock": 44
+    },
+    {
+      "id": 115,
+      "sku": "PARROXXL240115",
+      "nombre": "Parka",
+      "precioCOP": 79921,
+      "color": "Rojo",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 73
+    },
+    {
+      "id": 116,
+      "sku": "JEAMAXS210116",
+      "nombre": "Jeans",
+      "precioCOP": 58394,
+      "color": "Marrón",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 31
+    },
+    {
+      "id": 117,
+      "sku": "SUÉBLM220117",
+      "nombre": "Suéter",
+      "precioCOP": 219541,
+      "color": "Blanco",
+      "talla": "M",
+      "año": 2022,
+      "stock": 2
+    },
+    {
+      "id": 118,
+      "sku": "FALNEXS220118",
+      "nombre": "Falda",
+      "precioCOP": 248226,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 85
+    },
+    {
+      "id": 119,
+      "sku": "FALMAL220119",
+      "nombre": "Falda",
+      "precioCOP": 154405,
+      "color": "Marrón",
+      "talla": "L",
+      "año": 2022,
+      "stock": 42
+    },
+    {
+      "id": 120,
+      "sku": "JOGMAXL190120",
+      "nombre": "Jogger",
+      "precioCOP": 64165,
+      "color": "Marrón",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 72
+    },
+    {
+      "id": 121,
+      "sku": "SHONAXS210121",
+      "nombre": "Short",
+      "precioCOP": 186641,
+      "color": "Naranja",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 82
+    },
+    {
+      "id": 122,
+      "sku": "PARNEXL240122",
+      "nombre": "Parka",
+      "precioCOP": 113394,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2024,
+      "stock": 75
+    },
+    {
+      "id": 123,
+      "sku": "MONMAXL190123",
+      "nombre": "Mono",
+      "precioCOP": 222456,
+      "color": "Marrón",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 5
+    },
+    {
+      "id": 124,
+      "sku": "CAMBLXXL200124",
+      "nombre": "Camisa",
+      "precioCOP": 210014,
+      "color": "Blanco",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 57
+    },
+    {
+      "id": 125,
+      "sku": "SUDNEL240125",
+      "nombre": "Sudadera",
+      "precioCOP": 210050,
+      "color": "Negro",
+      "talla": "L",
+      "año": 2024,
+      "stock": 67
+    },
+    {
+      "id": 126,
+      "sku": "CHABLS240126",
+      "nombre": "Chaqueta",
+      "precioCOP": 110915,
+      "color": "Blanco",
+      "talla": "S",
+      "año": 2024,
+      "stock": 81
+    },
+    {
+      "id": 127,
+      "sku": "TOPBLM190127",
+      "nombre": "Top",
+      "precioCOP": 111202,
+      "color": "Blanco",
+      "talla": "M",
+      "año": 2019,
+      "stock": 44
+    },
+    {
+      "id": 128,
+      "sku": "CAMAZM190128",
+      "nombre": "Camisa",
+      "precioCOP": 179634,
+      "color": "Azul",
+      "talla": "M",
+      "año": 2019,
+      "stock": 57
+    },
+    {
+      "id": 129,
+      "sku": "CHAVEL240129",
+      "nombre": "Chaqueta",
+      "precioCOP": 176841,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2024,
+      "stock": 77
+    },
+    {
+      "id": 130,
+      "sku": "TOPBLS240130",
+      "nombre": "Top",
+      "precioCOP": 138322,
+      "color": "Blanco",
+      "talla": "S",
+      "año": 2024,
+      "stock": 98
+    },
+    {
+      "id": 131,
+      "sku": "FALAZXL220131",
+      "nombre": "Falda",
+      "precioCOP": 133760,
+      "color": "Azul",
+      "talla": "XL",
+      "año": 2022,
+      "stock": 13
+    },
+    {
+      "id": 132,
+      "sku": "SUDNAXS210132",
+      "nombre": "Sudadera",
+      "precioCOP": 179223,
+      "color": "Naranja",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 74
+    },
+    {
+      "id": 133,
+      "sku": "LEGMOS200133",
+      "nombre": "Leggins",
+      "precioCOP": 147793,
+      "color": "Morado",
+      "talla": "S",
+      "año": 2020,
+      "stock": 16
+    },
+    {
+      "id": 134,
+      "sku": "JEAVEM200134",
+      "nombre": "Jeans",
+      "precioCOP": 189439,
+      "color": "Verde",
+      "talla": "M",
+      "año": 2020,
+      "stock": 34
+    },
+    {
+      "id": 135,
+      "sku": "FALMAL220135",
+      "nombre": "Falda",
+      "precioCOP": 40820,
+      "color": "Marrón",
+      "talla": "L",
+      "año": 2022,
+      "stock": 86
+    },
+    {
+      "id": 136,
+      "sku": "LEGNAS190136",
+      "nombre": "Leggins",
+      "precioCOP": 125145,
+      "color": "Naranja",
+      "talla": "S",
+      "año": 2019,
+      "stock": 51
+    },
+    {
+      "id": 137,
+      "sku": "BLUNEXL240137",
+      "nombre": "Blusa",
+      "precioCOP": 46843,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2024,
+      "stock": 34
+    },
+    {
+      "id": 138,
+      "sku": "FALMAL220138",
+      "nombre": "Falda",
+      "precioCOP": 242533,
+      "color": "Marrón",
+      "talla": "L",
+      "año": 2022,
+      "stock": 2
+    },
+    {
+      "id": 139,
+      "sku": "CHAVES200139",
+      "nombre": "Chaqueta",
+      "precioCOP": 217281,
+      "color": "Verde",
+      "talla": "S",
+      "año": 2020,
+      "stock": 32
+    },
+    {
+      "id": 140,
+      "sku": "LEGNAXXL210140",
+      "nombre": "Leggins",
+      "precioCOP": 78965,
+      "color": "Naranja",
+      "talla": "XXL",
+      "año": 2021,
+      "stock": 82
+    },
+    {
+      "id": 141,
+      "sku": "CAMGRXXL200141",
+      "nombre": "Camiseta",
+      "precioCOP": 175733,
+      "color": "Gris",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 21
+    },
+    {
+      "id": 142,
+      "sku": "MONVEL220142",
+      "nombre": "Mono",
+      "precioCOP": 213578,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2022,
+      "stock": 66
+    },
+    {
+      "id": 143,
+      "sku": "BLUROS200143",
+      "nombre": "Blusa",
+      "precioCOP": 234843,
+      "color": "Rojo",
+      "talla": "S",
+      "año": 2020,
+      "stock": 81
+    },
+    {
+      "id": 144,
+      "sku": "CHAAZL210144",
+      "nombre": "Chaleco",
+      "precioCOP": 76303,
+      "color": "Azul",
+      "talla": "L",
+      "año": 2021,
+      "stock": 34
+    },
+    {
+      "id": 145,
+      "sku": "BERBLXL190145",
+      "nombre": "Bermuda",
+      "precioCOP": 207355,
+      "color": "Blanco",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 89
+    },
+    {
+      "id": 146,
+      "sku": "SUDGRM230146",
+      "nombre": "Sudadera",
+      "precioCOP": 229040,
+      "color": "Gris",
+      "talla": "M",
+      "año": 2023,
+      "stock": 75
+    },
+    {
+      "id": 147,
+      "sku": "LEGMAS210147",
+      "nombre": "Leggins",
+      "precioCOP": 177206,
+      "color": "Marrón",
+      "talla": "S",
+      "año": 2021,
+      "stock": 3
+    },
+    {
+      "id": 148,
+      "sku": "CHAVEL230148",
+      "nombre": "Chaleco",
+      "precioCOP": 30948,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2023,
+      "stock": 87
+    },
+    {
+      "id": 149,
+      "sku": "LEGVEL230149",
+      "nombre": "Leggins",
+      "precioCOP": 203865,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2023,
+      "stock": 66
+    },
+    {
+      "id": 150,
+      "sku": "ABRROS200150",
+      "nombre": "Abrigo",
+      "precioCOP": 213482,
+      "color": "Rojo",
+      "talla": "S",
+      "año": 2020,
+      "stock": 4
+    },
+    {
+      "id": 151,
+      "sku": "SHOAMS220151",
+      "nombre": "Short",
+      "precioCOP": 107232,
+      "color": "Amarillo",
+      "talla": "S",
+      "año": 2022,
+      "stock": 87
+    },
+    {
+      "id": 152,
+      "sku": "TOPAZM240152",
+      "nombre": "Top",
+      "precioCOP": 35381,
+      "color": "Azul",
+      "talla": "M",
+      "año": 2024,
+      "stock": 15
+    },
+    {
+      "id": 153,
+      "sku": "MONAZXL190153",
+      "nombre": "Mono",
+      "precioCOP": 39373,
+      "color": "Azul",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 54
+    },
+    {
+      "id": 154,
+      "sku": "ABRROL190154",
+      "nombre": "Abrigo",
+      "precioCOP": 247151,
+      "color": "Rojo",
+      "talla": "L",
+      "año": 2019,
+      "stock": 52
+    },
+    {
+      "id": 155,
+      "sku": "SHONEXL200155",
+      "nombre": "Short",
+      "precioCOP": 80699,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2020,
+      "stock": 60
+    },
+    {
+      "id": 156,
+      "sku": "JEAMAS210156",
+      "nombre": "Jeans",
+      "precioCOP": 172822,
+      "color": "Marrón",
+      "talla": "S",
+      "año": 2021,
+      "stock": 48
+    },
+    {
+      "id": 157,
+      "sku": "TOPMAXL240157",
+      "nombre": "Top",
+      "precioCOP": 66498,
+      "color": "Marrón",
+      "talla": "XL",
+      "año": 2024,
+      "stock": 34
+    },
+    {
+      "id": 158,
+      "sku": "FALMOXS240158",
+      "nombre": "Falda",
+      "precioCOP": 164109,
+      "color": "Morado",
+      "talla": "XS",
+      "año": 2024,
+      "stock": 11
+    },
+    {
+      "id": 159,
+      "sku": "BLUMOS200159",
+      "nombre": "Blusa",
+      "precioCOP": 231043,
+      "color": "Morado",
+      "talla": "S",
+      "año": 2020,
+      "stock": 88
+    },
+    {
+      "id": 160,
+      "sku": "FALNAM200160",
+      "nombre": "Falda",
+      "precioCOP": 82937,
+      "color": "Naranja",
+      "talla": "M",
+      "año": 2020,
+      "stock": 95
+    },
+    {
+      "id": 161,
+      "sku": "LEGROL220161",
+      "nombre": "Leggins",
+      "precioCOP": 34143,
+      "color": "Rojo",
+      "talla": "L",
+      "año": 2022,
+      "stock": 42
+    },
+    {
+      "id": 162,
+      "sku": "SUÉNEXS240162",
+      "nombre": "Suéter",
+      "precioCOP": 41015,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2024,
+      "stock": 2
+    },
+    {
+      "id": 163,
+      "sku": "CHAGRM230163",
+      "nombre": "Chaqueta",
+      "precioCOP": 114057,
+      "color": "Gris",
+      "talla": "M",
+      "año": 2023,
+      "stock": 74
+    },
+    {
+      "id": 164,
+      "sku": "TOPNAXL190164",
+      "nombre": "Top",
+      "precioCOP": 210719,
+      "color": "Naranja",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 60
+    },
+    {
+      "id": 165,
+      "sku": "MONROXS240165",
+      "nombre": "Mono",
+      "precioCOP": 133796,
+      "color": "Rojo",
+      "talla": "XS",
+      "año": 2024,
+      "stock": 45
+    },
+    {
+      "id": 166,
+      "sku": "JOGNES240166",
+      "nombre": "Jogger",
+      "precioCOP": 150441,
+      "color": "Negro",
+      "talla": "S",
+      "año": 2024,
+      "stock": 99
+    },
+    {
+      "id": 167,
+      "sku": "BLUAMXXL190167",
+      "nombre": "Blusa",
+      "precioCOP": 195816,
+      "color": "Amarillo",
+      "talla": "XXL",
+      "año": 2019,
+      "stock": 70
+    },
+    {
+      "id": 168,
+      "sku": "CAMAMXS220168",
+      "nombre": "Camisa",
+      "precioCOP": 152689,
+      "color": "Amarillo",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 75
+    },
+    {
+      "id": 169,
+      "sku": "JEAVEL230169",
+      "nombre": "Jeans",
+      "precioCOP": 230934,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2023,
+      "stock": 70
+    },
+    {
+      "id": 170,
+      "sku": "BLUVEXS200170",
+      "nombre": "Blusa",
+      "precioCOP": 235833,
+      "color": "Verde",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 75
+    },
+    {
+      "id": 171,
+      "sku": "JEAMOXS190171",
+      "nombre": "Jeans",
+      "precioCOP": 30772,
+      "color": "Morado",
+      "talla": "XS",
+      "año": 2019,
+      "stock": 10
+    },
+    {
+      "id": 172,
+      "sku": "JOGMAL220172",
+      "nombre": "Jogger",
+      "precioCOP": 240021,
+      "color": "Marrón",
+      "talla": "L",
+      "año": 2022,
+      "stock": 52
+    },
+    {
+      "id": 173,
+      "sku": "CHANEXS210173",
+      "nombre": "Chaleco",
+      "precioCOP": 248919,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 69
+    },
+    {
+      "id": 174,
+      "sku": "TOPNAXS190174",
+      "nombre": "Top",
+      "precioCOP": 79084,
+      "color": "Naranja",
+      "talla": "XS",
+      "año": 2019,
+      "stock": 90
+    },
+    {
+      "id": 175,
+      "sku": "SUÉAZL230175",
+      "nombre": "Suéter",
+      "precioCOP": 125613,
+      "color": "Azul",
+      "talla": "L",
+      "año": 2023,
+      "stock": 60
+    },
+    {
+      "id": 176,
+      "sku": "BLUVEXS200176",
+      "nombre": "Blusa",
+      "precioCOP": 230424,
+      "color": "Verde",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 7
+    },
+    {
+      "id": 177,
+      "sku": "CHAROM190177",
+      "nombre": "Chaqueta",
+      "precioCOP": 248800,
+      "color": "Rojo",
+      "talla": "M",
+      "año": 2019,
+      "stock": 19
+    },
+    {
+      "id": 178,
+      "sku": "MONROXXL240178",
+      "nombre": "Mono",
+      "precioCOP": 103008,
+      "color": "Rojo",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 40
+    },
+    {
+      "id": 179,
+      "sku": "SHOBLXL210179",
+      "nombre": "Short",
+      "precioCOP": 242557,
+      "color": "Blanco",
+      "talla": "XL",
+      "año": 2021,
+      "stock": 43
+    },
+    {
+      "id": 180,
+      "sku": "FALAMXS230180",
+      "nombre": "Falda",
+      "precioCOP": 172019,
+      "color": "Amarillo",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 46
+    },
+    {
+      "id": 181,
+      "sku": "SHOGRM210181",
+      "nombre": "Short",
+      "precioCOP": 241203,
+      "color": "Gris",
+      "talla": "M",
+      "año": 2021,
+      "stock": 29
+    },
+    {
+      "id": 182,
+      "sku": "TOPAZXS210182",
+      "nombre": "Top",
+      "precioCOP": 56370,
+      "color": "Azul",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 63
+    },
+    {
+      "id": 183,
+      "sku": "JOGROXXL210183",
+      "nombre": "Jogger",
+      "precioCOP": 207440,
+      "color": "Rojo",
+      "talla": "XXL",
+      "año": 2021,
+      "stock": 19
+    },
+    {
+      "id": 184,
+      "sku": "LEGVEXS200184",
+      "nombre": "Leggins",
+      "precioCOP": 202261,
+      "color": "Verde",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 12
+    },
+    {
+      "id": 185,
+      "sku": "PANBLXS200185",
+      "nombre": "Pantalón",
+      "precioCOP": 115399,
+      "color": "Blanco",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 14
+    },
+    {
+      "id": 186,
+      "sku": "LEGNEXL200186",
+      "nombre": "Leggins",
+      "precioCOP": 81966,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2020,
+      "stock": 97
+    },
+    {
+      "id": 187,
+      "sku": "CAMNAXL200187",
+      "nombre": "Camiseta",
+      "precioCOP": 152214,
+      "color": "Naranja",
+      "talla": "XL",
+      "año": 2020,
+      "stock": 52
+    },
+    {
+      "id": 188,
+      "sku": "SUDNAXL200188",
+      "nombre": "Sudadera",
+      "precioCOP": 139567,
+      "color": "Naranja",
+      "talla": "XL",
+      "año": 2020,
+      "stock": 2
+    },
+    {
+      "id": 189,
+      "sku": "LEGAMXL210189",
+      "nombre": "Leggins",
+      "precioCOP": 155086,
+      "color": "Amarillo",
+      "talla": "XL",
+      "año": 2021,
+      "stock": 94
+    },
+    {
+      "id": 190,
+      "sku": "FALVEXXL190190",
+      "nombre": "Falda",
+      "precioCOP": 128477,
+      "color": "Verde",
+      "talla": "XXL",
+      "año": 2019,
+      "stock": 21
+    },
+    {
+      "id": 191,
+      "sku": "CAMMAM190191",
+      "nombre": "Camiseta",
+      "precioCOP": 43172,
+      "color": "Marrón",
+      "talla": "M",
+      "año": 2019,
+      "stock": 7
+    },
+    {
+      "id": 192,
+      "sku": "SUDBLXXL200192",
+      "nombre": "Sudadera",
+      "precioCOP": 40268,
+      "color": "Blanco",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 9
+    },
+    {
+      "id": 193,
+      "sku": "SUDAMXXL190193",
+      "nombre": "Sudadera",
+      "precioCOP": 97683,
+      "color": "Amarillo",
+      "talla": "XXL",
+      "año": 2019,
+      "stock": 17
+    },
+    {
+      "id": 194,
+      "sku": "BLUVEXXL220194",
+      "nombre": "Blusa",
+      "precioCOP": 50788,
+      "color": "Verde",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 59
+    },
+    {
+      "id": 195,
+      "sku": "BERAMXL240195",
+      "nombre": "Bermuda",
+      "precioCOP": 121899,
+      "color": "Amarillo",
+      "talla": "XL",
+      "año": 2024,
+      "stock": 37
+    },
+    {
+      "id": 196,
+      "sku": "MONNEXL190196",
+      "nombre": "Mono",
+      "precioCOP": 113428,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 46
+    },
+    {
+      "id": 197,
+      "sku": "FALNEXL230197",
+      "nombre": "Falda",
+      "precioCOP": 97784,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 43
+    },
+    {
+      "id": 198,
+      "sku": "FALVEM220198",
+      "nombre": "Falda",
+      "precioCOP": 41454,
+      "color": "Verde",
+      "talla": "M",
+      "año": 2022,
+      "stock": 32
+    },
+    {
+      "id": 199,
+      "sku": "JEAGRXL200199",
+      "nombre": "Jeans",
+      "precioCOP": 54304,
+      "color": "Gris",
+      "talla": "XL",
+      "año": 2020,
+      "stock": 51
+    },
+    {
+      "id": 200,
+      "sku": "JOGGRXXL200200",
+      "nombre": "Jogger",
+      "precioCOP": 116936,
+      "color": "Gris",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 84
+    },
+    {
+      "id": 201,
+      "sku": "BLUMOXXL190201",
+      "nombre": "Blusa",
+      "precioCOP": 38105,
+      "color": "Morado",
+      "talla": "XXL",
+      "año": 2019,
+      "stock": 95
+    },
+    {
+      "id": 202,
+      "sku": "SUDNEXL190202",
+      "nombre": "Sudadera",
+      "precioCOP": 225780,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 74
+    },
+    {
+      "id": 203,
+      "sku": "LEGROS230203",
+      "nombre": "Leggins",
+      "precioCOP": 115075,
+      "color": "Rojo",
+      "talla": "S",
+      "año": 2023,
+      "stock": 96
+    },
+    {
+      "id": 204,
+      "sku": "BLUROXS220204",
+      "nombre": "Blusa",
+      "precioCOP": 149242,
+      "color": "Rojo",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 68
+    },
+    {
+      "id": 205,
+      "sku": "BERVEM190205",
+      "nombre": "Bermuda",
+      "precioCOP": 172190,
+      "color": "Verde",
+      "talla": "M",
+      "año": 2019,
+      "stock": 5
+    },
+    {
+      "id": 206,
+      "sku": "CHANEXL200206",
+      "nombre": "Chaqueta",
+      "precioCOP": 106006,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2020,
+      "stock": 13
+    },
+    {
+      "id": 207,
+      "sku": "BLUGRXS200207",
+      "nombre": "Blusa",
+      "precioCOP": 119317,
+      "color": "Gris",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 96
+    },
+    {
+      "id": 208,
+      "sku": "CHANAXL230208",
+      "nombre": "Chaqueta",
+      "precioCOP": 210399,
+      "color": "Naranja",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 92
+    },
+    {
+      "id": 209,
+      "sku": "SHOGRXXL230209",
+      "nombre": "Short",
+      "precioCOP": 97166,
+      "color": "Gris",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 27
+    },
+    {
+      "id": 210,
+      "sku": "SHOAML220210",
+      "nombre": "Short",
+      "precioCOP": 34869,
+      "color": "Amarillo",
+      "talla": "L",
+      "año": 2022,
+      "stock": 15
+    },
+    {
+      "id": 211,
+      "sku": "JEAAZS220211",
+      "nombre": "Jeans",
+      "precioCOP": 142335,
+      "color": "Azul",
+      "talla": "S",
+      "año": 2022,
+      "stock": 7
+    },
+    {
+      "id": 212,
+      "sku": "SUÉAZS220212",
+      "nombre": "Suéter",
+      "precioCOP": 175970,
+      "color": "Azul",
+      "talla": "S",
+      "año": 2022,
+      "stock": 62
+    },
+    {
+      "id": 213,
+      "sku": "SUDAMS230213",
+      "nombre": "Sudadera",
+      "precioCOP": 144939,
+      "color": "Amarillo",
+      "talla": "S",
+      "año": 2023,
+      "stock": 6
+    },
+    {
+      "id": 214,
+      "sku": "BLUROXS200214",
+      "nombre": "Blusa",
+      "precioCOP": 165624,
+      "color": "Rojo",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 84
+    },
+    {
+      "id": 215,
+      "sku": "CHAAML190215",
+      "nombre": "Chaqueta",
+      "precioCOP": 98560,
+      "color": "Amarillo",
+      "talla": "L",
+      "año": 2019,
+      "stock": 6
+    },
+    {
+      "id": 216,
+      "sku": "ABRAMXS230216",
+      "nombre": "Abrigo",
+      "precioCOP": 60429,
+      "color": "Amarillo",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 91
+    },
+    {
+      "id": 217,
+      "sku": "CHAMAM240217",
+      "nombre": "Chaqueta",
+      "precioCOP": 114301,
+      "color": "Marrón",
+      "talla": "M",
+      "año": 2024,
+      "stock": 71
+    },
+    {
+      "id": 218,
+      "sku": "PANAMXL200218",
+      "nombre": "Pantalón",
+      "precioCOP": 31833,
+      "color": "Amarillo",
+      "talla": "XL",
+      "año": 2020,
+      "stock": 17
+    },
+    {
+      "id": 219,
+      "sku": "VESAZM220219",
+      "nombre": "Vestido",
+      "precioCOP": 204363,
+      "color": "Azul",
+      "talla": "M",
+      "año": 2022,
+      "stock": 100
+    },
+    {
+      "id": 220,
+      "sku": "POLAMXL190220",
+      "nombre": "Polo",
+      "precioCOP": 58791,
+      "color": "Amarillo",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 42
+    },
+    {
+      "id": 221,
+      "sku": "SHOAMS200221",
+      "nombre": "Short",
+      "precioCOP": 76919,
+      "color": "Amarillo",
+      "talla": "S",
+      "año": 2020,
+      "stock": 93
+    },
+    {
+      "id": 222,
+      "sku": "SUÉMOL230222",
+      "nombre": "Suéter",
+      "precioCOP": 183954,
+      "color": "Morado",
+      "talla": "L",
+      "año": 2023,
+      "stock": 15
+    },
+    {
+      "id": 223,
+      "sku": "ABRAML200223",
+      "nombre": "Abrigo",
+      "precioCOP": 135336,
+      "color": "Amarillo",
+      "talla": "L",
+      "año": 2020,
+      "stock": 51
+    },
+    {
+      "id": 224,
+      "sku": "ABRROL240224",
+      "nombre": "Abrigo",
+      "precioCOP": 89967,
+      "color": "Rojo",
+      "talla": "L",
+      "año": 2024,
+      "stock": 28
+    },
+    {
+      "id": 225,
+      "sku": "SUÉVEXXL210225",
+      "nombre": "Suéter",
+      "precioCOP": 159009,
+      "color": "Verde",
+      "talla": "XXL",
+      "año": 2021,
+      "stock": 64
+    },
+    {
+      "id": 226,
+      "sku": "FALMOL200226",
+      "nombre": "Falda",
+      "precioCOP": 49230,
+      "color": "Morado",
+      "talla": "L",
+      "año": 2020,
+      "stock": 10
+    },
+    {
+      "id": 227,
+      "sku": "LEGAZXXL230227",
+      "nombre": "Leggins",
+      "precioCOP": 72695,
+      "color": "Azul",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 82
+    },
+    {
+      "id": 228,
+      "sku": "FALBLXL230228",
+      "nombre": "Falda",
+      "precioCOP": 86213,
+      "color": "Blanco",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 26
+    },
+    {
+      "id": 229,
+      "sku": "POLROL240229",
+      "nombre": "Polo",
+      "precioCOP": 93364,
+      "color": "Rojo",
+      "talla": "L",
+      "año": 2024,
+      "stock": 0
+    },
+    {
+      "id": 230,
+      "sku": "PANVES240230",
+      "nombre": "Pantalón",
+      "precioCOP": 30128,
+      "color": "Verde",
+      "talla": "S",
+      "año": 2024,
+      "stock": 79
+    },
+    {
+      "id": 231,
+      "sku": "LEGNEXXL220231",
+      "nombre": "Leggins",
+      "precioCOP": 101166,
+      "color": "Negro",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 52
+    },
+    {
+      "id": 232,
+      "sku": "SUÉROXS230232",
+      "nombre": "Suéter",
+      "precioCOP": 249968,
+      "color": "Rojo",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 47
+    },
+    {
+      "id": 233,
+      "sku": "SUDAZXS210233",
+      "nombre": "Sudadera",
+      "precioCOP": 168125,
+      "color": "Azul",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 9
+    },
+    {
+      "id": 234,
+      "sku": "LEGNEXS230234",
+      "nombre": "Leggins",
+      "precioCOP": 166724,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 43
+    },
+    {
+      "id": 235,
+      "sku": "SUDBLXL220235",
+      "nombre": "Sudadera",
+      "precioCOP": 148298,
+      "color": "Blanco",
+      "talla": "XL",
+      "año": 2022,
+      "stock": 75
+    },
+    {
+      "id": 236,
+      "sku": "JEAMAS190236",
+      "nombre": "Jeans",
+      "precioCOP": 112020,
+      "color": "Marrón",
+      "talla": "S",
+      "año": 2019,
+      "stock": 57
+    },
+    {
+      "id": 237,
+      "sku": "SHOMOXS230237",
+      "nombre": "Short",
+      "precioCOP": 66048,
+      "color": "Morado",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 75
+    },
+    {
+      "id": 238,
+      "sku": "SHONAXXL220238",
+      "nombre": "Short",
+      "precioCOP": 65931,
+      "color": "Naranja",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 17
+    },
+    {
+      "id": 239,
+      "sku": "SHOMOL210239",
+      "nombre": "Short",
+      "precioCOP": 212863,
+      "color": "Morado",
+      "talla": "L",
+      "año": 2021,
+      "stock": 7
+    },
+    {
+      "id": 240,
+      "sku": "CAMNAXS240240",
+      "nombre": "Camiseta",
+      "precioCOP": 227999,
+      "color": "Naranja",
+      "talla": "XS",
+      "año": 2024,
+      "stock": 95
+    },
+    {
+      "id": 241,
+      "sku": "VESROXL190241",
+      "nombre": "Vestido",
+      "precioCOP": 128046,
+      "color": "Rojo",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 21
+    },
+    {
+      "id": 242,
+      "sku": "BLUNAL240242",
+      "nombre": "Blusa",
+      "precioCOP": 202773,
+      "color": "Naranja",
+      "talla": "L",
+      "año": 2024,
+      "stock": 94
+    },
+    {
+      "id": 243,
+      "sku": "JOGMOS210243",
+      "nombre": "Jogger",
+      "precioCOP": 198621,
+      "color": "Morado",
+      "talla": "S",
+      "año": 2021,
+      "stock": 62
+    },
+    {
+      "id": 244,
+      "sku": "PARVEM220244",
+      "nombre": "Parka",
+      "precioCOP": 76190,
+      "color": "Verde",
+      "talla": "M",
+      "año": 2022,
+      "stock": 95
+    },
+    {
+      "id": 245,
+      "sku": "TOPNEXS210245",
+      "nombre": "Top",
+      "precioCOP": 170316,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 78
+    },
+    {
+      "id": 246,
+      "sku": "JEAAZXS190246",
+      "nombre": "Jeans",
+      "precioCOP": 80576,
+      "color": "Azul",
+      "talla": "XS",
+      "año": 2019,
+      "stock": 24
+    },
+    {
+      "id": 247,
+      "sku": "TOPNEXL190247",
+      "nombre": "Top",
+      "precioCOP": 51995,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 77
+    },
+    {
+      "id": 248,
+      "sku": "SHOMAXL230248",
+      "nombre": "Short",
+      "precioCOP": 211528,
+      "color": "Marrón",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 40
+    },
+    {
+      "id": 249,
+      "sku": "BERMAXXL200249",
+      "nombre": "Bermuda",
+      "precioCOP": 168247,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 79
+    },
+    {
+      "id": 250,
+      "sku": "SUDMOS200250",
+      "nombre": "Sudadera",
+      "precioCOP": 176894,
+      "color": "Morado",
+      "talla": "S",
+      "año": 2020,
+      "stock": 100
+    },
+    {
+      "id": 251,
+      "sku": "BLUAZS240251",
+      "nombre": "Blusa",
+      "precioCOP": 89318,
+      "color": "Azul",
+      "talla": "S",
+      "año": 2024,
+      "stock": 13
+    },
+    {
+      "id": 252,
+      "sku": "MONAZS200252",
+      "nombre": "Mono",
+      "precioCOP": 45820,
+      "color": "Azul",
+      "talla": "S",
+      "año": 2020,
+      "stock": 79
+    },
+    {
+      "id": 253,
+      "sku": "FALAZXL190253",
+      "nombre": "Falda",
+      "precioCOP": 137865,
+      "color": "Azul",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 63
+    },
+    {
+      "id": 254,
+      "sku": "BLUNEM220254",
+      "nombre": "Blusa",
+      "precioCOP": 219952,
+      "color": "Negro",
+      "talla": "M",
+      "año": 2022,
+      "stock": 80
+    },
+    {
+      "id": 255,
+      "sku": "JOGGRXS190255",
+      "nombre": "Jogger",
+      "precioCOP": 152691,
+      "color": "Gris",
+      "talla": "XS",
+      "año": 2019,
+      "stock": 54
+    },
+    {
+      "id": 256,
+      "sku": "SUÉAZXXL200256",
+      "nombre": "Suéter",
+      "precioCOP": 192059,
+      "color": "Azul",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 87
+    },
+    {
+      "id": 257,
+      "sku": "TOPGRM200257",
+      "nombre": "Top",
+      "precioCOP": 224900,
+      "color": "Gris",
+      "talla": "M",
+      "año": 2020,
+      "stock": 38
+    },
+    {
+      "id": 258,
+      "sku": "CAMMAXXL230258",
+      "nombre": "Camisa",
+      "precioCOP": 52110,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 24
+    },
+    {
+      "id": 259,
+      "sku": "SUÉAZXXL240259",
+      "nombre": "Suéter",
+      "precioCOP": 50600,
+      "color": "Azul",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 10
+    },
+    {
+      "id": 260,
+      "sku": "CHANEXS230260",
+      "nombre": "Chaqueta",
+      "precioCOP": 117728,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 90
+    },
+    {
+      "id": 261,
+      "sku": "CAMMAXXL220261",
+      "nombre": "Camiseta",
+      "precioCOP": 187460,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 74
+    },
+    {
+      "id": 262,
+      "sku": "CAMAZL220262",
+      "nombre": "Camiseta",
+      "precioCOP": 184665,
+      "color": "Azul",
+      "talla": "L",
+      "año": 2022,
+      "stock": 46
+    },
+    {
+      "id": 263,
+      "sku": "JEANEM220263",
+      "nombre": "Jeans",
+      "precioCOP": 185387,
+      "color": "Negro",
+      "talla": "M",
+      "año": 2022,
+      "stock": 65
+    },
+    {
+      "id": 264,
+      "sku": "SHONEXXL240264",
+      "nombre": "Short",
+      "precioCOP": 155080,
+      "color": "Negro",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 87
+    },
+    {
+      "id": 265,
+      "sku": "LEGROL220265",
+      "nombre": "Leggins",
+      "precioCOP": 203128,
+      "color": "Rojo",
+      "talla": "L",
+      "año": 2022,
+      "stock": 25
+    },
+    {
+      "id": 266,
+      "sku": "CAMVEXXL240266",
+      "nombre": "Camisa",
+      "precioCOP": 206901,
+      "color": "Verde",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 70
+    },
+    {
+      "id": 267,
+      "sku": "TOPBLXL190267",
+      "nombre": "Top",
+      "precioCOP": 141581,
+      "color": "Blanco",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 48
+    },
+    {
+      "id": 268,
+      "sku": "JEANEM220268",
+      "nombre": "Jeans",
+      "precioCOP": 139972,
+      "color": "Negro",
+      "talla": "M",
+      "año": 2022,
+      "stock": 54
+    },
+    {
+      "id": 269,
+      "sku": "CHABLL230269",
+      "nombre": "Chaleco",
+      "precioCOP": 132858,
+      "color": "Blanco",
+      "talla": "L",
+      "año": 2023,
+      "stock": 83
+    },
+    {
+      "id": 270,
+      "sku": "LEGBLL200270",
+      "nombre": "Leggins",
+      "precioCOP": 60686,
+      "color": "Blanco",
+      "talla": "L",
+      "año": 2020,
+      "stock": 62
+    },
+    {
+      "id": 271,
+      "sku": "ABRROS190271",
+      "nombre": "Abrigo",
+      "precioCOP": 202536,
+      "color": "Rojo",
+      "talla": "S",
+      "año": 2019,
+      "stock": 13
+    },
+    {
+      "id": 272,
+      "sku": "FALMOXXL210272",
+      "nombre": "Falda",
+      "precioCOP": 33531,
+      "color": "Morado",
+      "talla": "XXL",
+      "año": 2021,
+      "stock": 66
+    },
+    {
+      "id": 273,
+      "sku": "FALNAXXL240273",
+      "nombre": "Falda",
+      "precioCOP": 216811,
+      "color": "Naranja",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 21
+    },
+    {
+      "id": 274,
+      "sku": "CAMGRS240274",
+      "nombre": "Camisa",
+      "precioCOP": 106241,
+      "color": "Gris",
+      "talla": "S",
+      "año": 2024,
+      "stock": 45
+    },
+    {
+      "id": 275,
+      "sku": "FALAZS220275",
+      "nombre": "Falda",
+      "precioCOP": 109406,
+      "color": "Azul",
+      "talla": "S",
+      "año": 2022,
+      "stock": 43
+    },
+    {
+      "id": 276,
+      "sku": "JEANEM230276",
+      "nombre": "Jeans",
+      "precioCOP": 235308,
+      "color": "Negro",
+      "talla": "M",
+      "año": 2023,
+      "stock": 53
+    },
+    {
+      "id": 277,
+      "sku": "CAMROM230277",
+      "nombre": "Camiseta",
+      "precioCOP": 238378,
+      "color": "Rojo",
+      "talla": "M",
+      "año": 2023,
+      "stock": 65
+    },
+    {
+      "id": 278,
+      "sku": "SUDGRXS200278",
+      "nombre": "Sudadera",
+      "precioCOP": 194995,
+      "color": "Gris",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 97
+    },
+    {
+      "id": 279,
+      "sku": "CAMAZXXL190279",
+      "nombre": "Camiseta",
+      "precioCOP": 193600,
+      "color": "Azul",
+      "talla": "XXL",
+      "año": 2019,
+      "stock": 45
+    },
+    {
+      "id": 280,
+      "sku": "PANMAL240280",
+      "nombre": "Pantalón",
+      "precioCOP": 164397,
+      "color": "Marrón",
+      "talla": "L",
+      "año": 2024,
+      "stock": 57
+    },
+    {
+      "id": 281,
+      "sku": "SUÉNAS210281",
+      "nombre": "Suéter",
+      "precioCOP": 73007,
+      "color": "Naranja",
+      "talla": "S",
+      "año": 2021,
+      "stock": 43
+    },
+    {
+      "id": 282,
+      "sku": "CAMMAXL230282",
+      "nombre": "Camisa",
+      "precioCOP": 221748,
+      "color": "Marrón",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 51
+    },
+    {
+      "id": 283,
+      "sku": "CAMMAM220283",
+      "nombre": "Camisa",
+      "precioCOP": 113406,
+      "color": "Marrón",
+      "talla": "M",
+      "año": 2022,
+      "stock": 0
+    },
+    {
+      "id": 284,
+      "sku": "JEAAZS220284",
+      "nombre": "Jeans",
+      "precioCOP": 210710,
+      "color": "Azul",
+      "talla": "S",
+      "año": 2022,
+      "stock": 28
+    },
+    {
+      "id": 285,
+      "sku": "VESROS240285",
+      "nombre": "Vestido",
+      "precioCOP": 167631,
+      "color": "Rojo",
+      "talla": "S",
+      "año": 2024,
+      "stock": 68
+    },
+    {
+      "id": 286,
+      "sku": "BERAMS210286",
+      "nombre": "Bermuda",
+      "precioCOP": 32507,
+      "color": "Amarillo",
+      "talla": "S",
+      "año": 2021,
+      "stock": 86
+    },
+    {
+      "id": 287,
+      "sku": "SHOMAM240287",
+      "nombre": "Short",
+      "precioCOP": 60397,
+      "color": "Marrón",
+      "talla": "M",
+      "año": 2024,
+      "stock": 31
+    },
+    {
+      "id": 288,
+      "sku": "SUÉMOXS220288",
+      "nombre": "Suéter",
+      "precioCOP": 104443,
+      "color": "Morado",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 27
+    },
+    {
+      "id": 289,
+      "sku": "POLMOM220289",
+      "nombre": "Polo",
+      "precioCOP": 77112,
+      "color": "Morado",
+      "talla": "M",
+      "año": 2022,
+      "stock": 77
+    },
+    {
+      "id": 290,
+      "sku": "SHONAL230290",
+      "nombre": "Short",
+      "precioCOP": 30382,
+      "color": "Naranja",
+      "talla": "L",
+      "año": 2023,
+      "stock": 59
+    },
+    {
+      "id": 291,
+      "sku": "PARMOM220291",
+      "nombre": "Parka",
+      "precioCOP": 227491,
+      "color": "Morado",
+      "talla": "M",
+      "año": 2022,
+      "stock": 83
+    },
+    {
+      "id": 292,
+      "sku": "POLMOL190292",
+      "nombre": "Polo",
+      "precioCOP": 138013,
+      "color": "Morado",
+      "talla": "L",
+      "año": 2019,
+      "stock": 26
+    },
+    {
+      "id": 293,
+      "sku": "CHANEL240293",
+      "nombre": "Chaqueta",
+      "precioCOP": 94526,
+      "color": "Negro",
+      "talla": "L",
+      "año": 2024,
+      "stock": 97
+    },
+    {
+      "id": 294,
+      "sku": "VESMOS220294",
+      "nombre": "Vestido",
+      "precioCOP": 33365,
+      "color": "Morado",
+      "talla": "S",
+      "año": 2022,
+      "stock": 74
+    },
+    {
+      "id": 295,
+      "sku": "JOGBLXS240295",
+      "nombre": "Jogger",
+      "precioCOP": 111658,
+      "color": "Blanco",
+      "talla": "XS",
+      "año": 2024,
+      "stock": 16
+    },
+    {
+      "id": 296,
+      "sku": "CAMBLS210296",
+      "nombre": "Camiseta",
+      "precioCOP": 84203,
+      "color": "Blanco",
+      "talla": "S",
+      "año": 2021,
+      "stock": 59
+    },
+    {
+      "id": 297,
+      "sku": "SUÉVEL230297",
+      "nombre": "Suéter",
+      "precioCOP": 208862,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2023,
+      "stock": 14
+    },
+    {
+      "id": 298,
+      "sku": "SHOROXL210298",
+      "nombre": "Short",
+      "precioCOP": 174463,
+      "color": "Rojo",
+      "talla": "XL",
+      "año": 2021,
+      "stock": 83
+    },
+    {
+      "id": 299,
+      "sku": "TOPAZXL230299",
+      "nombre": "Top",
+      "precioCOP": 108890,
+      "color": "Azul",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 91
+    },
+    {
+      "id": 300,
+      "sku": "POLMOM240300",
+      "nombre": "Polo",
+      "precioCOP": 245107,
+      "color": "Morado",
+      "talla": "M",
+      "año": 2024,
+      "stock": 62
+    },
+    {
+      "id": 301,
+      "sku": "LEGBLXL190301",
+      "nombre": "Leggins",
+      "precioCOP": 69528,
+      "color": "Blanco",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 62
+    },
+    {
+      "id": 302,
+      "sku": "PARNAS200302",
+      "nombre": "Parka",
+      "precioCOP": 111861,
+      "color": "Naranja",
+      "talla": "S",
+      "año": 2020,
+      "stock": 40
+    },
+    {
+      "id": 303,
+      "sku": "ABRMAL200303",
+      "nombre": "Abrigo",
+      "precioCOP": 213656,
+      "color": "Marrón",
+      "talla": "L",
+      "año": 2020,
+      "stock": 9
+    },
+    {
+      "id": 304,
+      "sku": "MONGRXL210304",
+      "nombre": "Mono",
+      "precioCOP": 99541,
+      "color": "Gris",
+      "talla": "XL",
+      "año": 2021,
+      "stock": 7
+    },
+    {
+      "id": 305,
+      "sku": "POLAMXS200305",
+      "nombre": "Polo",
+      "precioCOP": 90298,
+      "color": "Amarillo",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 13
+    },
+    {
+      "id": 306,
+      "sku": "VESNEL220306",
+      "nombre": "Vestido",
+      "precioCOP": 89865,
+      "color": "Negro",
+      "talla": "L",
+      "año": 2022,
+      "stock": 55
+    },
+    {
+      "id": 307,
+      "sku": "JEAGRS220307",
+      "nombre": "Jeans",
+      "precioCOP": 80512,
+      "color": "Gris",
+      "talla": "S",
+      "año": 2022,
+      "stock": 91
+    },
+    {
+      "id": 308,
+      "sku": "CAMAMXXL190308",
+      "nombre": "Camiseta",
+      "precioCOP": 182619,
+      "color": "Amarillo",
+      "talla": "XXL",
+      "año": 2019,
+      "stock": 52
+    },
+    {
+      "id": 309,
+      "sku": "JOGMOS190309",
+      "nombre": "Jogger",
+      "precioCOP": 164600,
+      "color": "Morado",
+      "talla": "S",
+      "año": 2019,
+      "stock": 85
+    },
+    {
+      "id": 310,
+      "sku": "ABRBLXL200310",
+      "nombre": "Abrigo",
+      "precioCOP": 57011,
+      "color": "Blanco",
+      "talla": "XL",
+      "año": 2020,
+      "stock": 21
+    },
+    {
+      "id": 311,
+      "sku": "MONROXL200311",
+      "nombre": "Mono",
+      "precioCOP": 175757,
+      "color": "Rojo",
+      "talla": "XL",
+      "año": 2020,
+      "stock": 3
+    },
+    {
+      "id": 312,
+      "sku": "LEGAZM230312",
+      "nombre": "Leggins",
+      "precioCOP": 46916,
+      "color": "Azul",
+      "talla": "M",
+      "año": 2023,
+      "stock": 100
+    },
+    {
+      "id": 313,
+      "sku": "VESGRXL220313",
+      "nombre": "Vestido",
+      "precioCOP": 110015,
+      "color": "Gris",
+      "talla": "XL",
+      "año": 2022,
+      "stock": 7
+    },
+    {
+      "id": 314,
+      "sku": "VESGRXS190314",
+      "nombre": "Vestido",
+      "precioCOP": 239994,
+      "color": "Gris",
+      "talla": "XS",
+      "año": 2019,
+      "stock": 15
+    },
+    {
+      "id": 315,
+      "sku": "PARAZM240315",
+      "nombre": "Parka",
+      "precioCOP": 129112,
+      "color": "Azul",
+      "talla": "M",
+      "año": 2024,
+      "stock": 51
+    },
+    {
+      "id": 316,
+      "sku": "LEGMAXXL230316",
+      "nombre": "Leggins",
+      "precioCOP": 105924,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 68
+    },
+    {
+      "id": 317,
+      "sku": "SUDNEXL190317",
+      "nombre": "Sudadera",
+      "precioCOP": 124888,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 66
+    },
+    {
+      "id": 318,
+      "sku": "MONGRL220318",
+      "nombre": "Mono",
+      "precioCOP": 204953,
+      "color": "Gris",
+      "talla": "L",
+      "año": 2022,
+      "stock": 82
+    },
+    {
+      "id": 319,
+      "sku": "VESVEXS240319",
+      "nombre": "Vestido",
+      "precioCOP": 178604,
+      "color": "Verde",
+      "talla": "XS",
+      "año": 2024,
+      "stock": 48
+    },
+    {
+      "id": 320,
+      "sku": "CAMNAXS230320",
+      "nombre": "Camiseta",
+      "precioCOP": 65613,
+      "color": "Naranja",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 94
+    },
+    {
+      "id": 321,
+      "sku": "LEGGRXS220321",
+      "nombre": "Leggins",
+      "precioCOP": 72779,
+      "color": "Gris",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 0
+    },
+    {
+      "id": 322,
+      "sku": "MONBLM200322",
+      "nombre": "Mono",
+      "precioCOP": 219605,
+      "color": "Blanco",
+      "talla": "M",
+      "año": 2020,
+      "stock": 52
+    },
+    {
+      "id": 323,
+      "sku": "FALBLXS190323",
+      "nombre": "Falda",
+      "precioCOP": 195720,
+      "color": "Blanco",
+      "talla": "XS",
+      "año": 2019,
+      "stock": 37
+    },
+    {
+      "id": 324,
+      "sku": "TOPBLXS200324",
+      "nombre": "Top",
+      "precioCOP": 52576,
+      "color": "Blanco",
+      "talla": "XS",
+      "año": 2020,
+      "stock": 51
+    },
+    {
+      "id": 325,
+      "sku": "LEGGRM220325",
+      "nombre": "Leggins",
+      "precioCOP": 172459,
+      "color": "Gris",
+      "talla": "M",
+      "año": 2022,
+      "stock": 42
+    },
+    {
+      "id": 326,
+      "sku": "BLUNEXL230326",
+      "nombre": "Blusa",
+      "precioCOP": 60310,
+      "color": "Negro",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 38
+    },
+    {
+      "id": 327,
+      "sku": "PARAMXXL220327",
+      "nombre": "Parka",
+      "precioCOP": 61966,
+      "color": "Amarillo",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 25
+    },
+    {
+      "id": 328,
+      "sku": "CAMAZXXL220328",
+      "nombre": "Camisa",
+      "precioCOP": 111394,
+      "color": "Azul",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 44
+    },
+    {
+      "id": 329,
+      "sku": "VESMOXXL220329",
+      "nombre": "Vestido",
+      "precioCOP": 203467,
+      "color": "Morado",
+      "talla": "XXL",
+      "año": 2022,
+      "stock": 47
+    },
+    {
+      "id": 330,
+      "sku": "BLUBLXS230330",
+      "nombre": "Blusa",
+      "precioCOP": 90295,
+      "color": "Blanco",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 28
+    },
+    {
+      "id": 331,
+      "sku": "BLUMAXXL190331",
+      "nombre": "Blusa",
+      "precioCOP": 35689,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2019,
+      "stock": 42
+    },
+    {
+      "id": 332,
+      "sku": "SUDAZL200332",
+      "nombre": "Sudadera",
+      "precioCOP": 199267,
+      "color": "Azul",
+      "talla": "L",
+      "año": 2020,
+      "stock": 9
+    },
+    {
+      "id": 333,
+      "sku": "CAMAMS220333",
+      "nombre": "Camiseta",
+      "precioCOP": 67503,
+      "color": "Amarillo",
+      "talla": "S",
+      "año": 2022,
+      "stock": 98
+    },
+    {
+      "id": 334,
+      "sku": "PANNEXXL190334",
+      "nombre": "Pantalón",
+      "precioCOP": 184919,
+      "color": "Negro",
+      "talla": "XXL",
+      "año": 2019,
+      "stock": 3
+    },
+    {
+      "id": 335,
+      "sku": "SHOGRS190335",
+      "nombre": "Short",
+      "precioCOP": 47738,
+      "color": "Gris",
+      "talla": "S",
+      "año": 2019,
+      "stock": 14
+    },
+    {
+      "id": 336,
+      "sku": "PARROS230336",
+      "nombre": "Parka",
+      "precioCOP": 193659,
+      "color": "Rojo",
+      "talla": "S",
+      "año": 2023,
+      "stock": 93
+    },
+    {
+      "id": 337,
+      "sku": "VESMOXL230337",
+      "nombre": "Vestido",
+      "precioCOP": 240278,
+      "color": "Morado",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 23
+    },
+    {
+      "id": 338,
+      "sku": "POLMOXXL210338",
+      "nombre": "Polo",
+      "precioCOP": 59918,
+      "color": "Morado",
+      "talla": "XXL",
+      "año": 2021,
+      "stock": 8
+    },
+    {
+      "id": 339,
+      "sku": "MONAZS200339",
+      "nombre": "Mono",
+      "precioCOP": 129014,
+      "color": "Azul",
+      "talla": "S",
+      "año": 2020,
+      "stock": 73
+    },
+    {
+      "id": 340,
+      "sku": "SUDROXL220340",
+      "nombre": "Sudadera",
+      "precioCOP": 152126,
+      "color": "Rojo",
+      "talla": "XL",
+      "año": 2022,
+      "stock": 36
+    },
+    {
+      "id": 341,
+      "sku": "PARMAS200341",
+      "nombre": "Parka",
+      "precioCOP": 188001,
+      "color": "Marrón",
+      "talla": "S",
+      "año": 2020,
+      "stock": 83
+    },
+    {
+      "id": 342,
+      "sku": "POLROM200342",
+      "nombre": "Polo",
+      "precioCOP": 97605,
+      "color": "Rojo",
+      "talla": "M",
+      "año": 2020,
+      "stock": 3
+    },
+    {
+      "id": 343,
+      "sku": "CHAMAM190343",
+      "nombre": "Chaleco",
+      "precioCOP": 170207,
+      "color": "Marrón",
+      "talla": "M",
+      "año": 2019,
+      "stock": 26
+    },
+    {
+      "id": 344,
+      "sku": "BERMAL190344",
+      "nombre": "Bermuda",
+      "precioCOP": 129088,
+      "color": "Marrón",
+      "talla": "L",
+      "año": 2019,
+      "stock": 71
+    },
+    {
+      "id": 345,
+      "sku": "MONAMXL240345",
+      "nombre": "Mono",
+      "precioCOP": 245295,
+      "color": "Amarillo",
+      "talla": "XL",
+      "año": 2024,
+      "stock": 63
+    },
+    {
+      "id": 346,
+      "sku": "PARNAXS190346",
+      "nombre": "Parka",
+      "precioCOP": 212288,
+      "color": "Naranja",
+      "talla": "XS",
+      "año": 2019,
+      "stock": 31
+    },
+    {
+      "id": 347,
+      "sku": "JOGVES230347",
+      "nombre": "Jogger",
+      "precioCOP": 90119,
+      "color": "Verde",
+      "talla": "S",
+      "año": 2023,
+      "stock": 66
+    },
+    {
+      "id": 348,
+      "sku": "JEAROM200348",
+      "nombre": "Jeans",
+      "precioCOP": 77705,
+      "color": "Rojo",
+      "talla": "M",
+      "año": 2020,
+      "stock": 43
+    },
+    {
+      "id": 349,
+      "sku": "VESGRXL230349",
+      "nombre": "Vestido",
+      "precioCOP": 206049,
+      "color": "Gris",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 32
+    },
+    {
+      "id": 350,
+      "sku": "SUDVEXS190350",
+      "nombre": "Sudadera",
+      "precioCOP": 58323,
+      "color": "Verde",
+      "talla": "XS",
+      "año": 2019,
+      "stock": 81
+    },
+    {
+      "id": 351,
+      "sku": "SHOGRS190351",
+      "nombre": "Short",
+      "precioCOP": 35805,
+      "color": "Gris",
+      "talla": "S",
+      "año": 2019,
+      "stock": 70
+    },
+    {
+      "id": 352,
+      "sku": "VESAMM210352",
+      "nombre": "Vestido",
+      "precioCOP": 43591,
+      "color": "Amarillo",
+      "talla": "M",
+      "año": 2021,
+      "stock": 93
+    },
+    {
+      "id": 353,
+      "sku": "LEGROL220353",
+      "nombre": "Leggins",
+      "precioCOP": 182683,
+      "color": "Rojo",
+      "talla": "L",
+      "año": 2022,
+      "stock": 95
+    },
+    {
+      "id": 354,
+      "sku": "ABRMOM190354",
+      "nombre": "Abrigo",
+      "precioCOP": 167463,
+      "color": "Morado",
+      "talla": "M",
+      "año": 2019,
+      "stock": 20
+    },
+    {
+      "id": 355,
+      "sku": "BERNAXS210355",
+      "nombre": "Bermuda",
+      "precioCOP": 227785,
+      "color": "Naranja",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 12
+    },
+    {
+      "id": 356,
+      "sku": "MONAMS220356",
+      "nombre": "Mono",
+      "precioCOP": 179141,
+      "color": "Amarillo",
+      "talla": "S",
+      "año": 2022,
+      "stock": 47
+    },
+    {
+      "id": 357,
+      "sku": "JEANEXS220357",
+      "nombre": "Jeans",
+      "precioCOP": 90661,
+      "color": "Negro",
+      "talla": "XS",
+      "año": 2022,
+      "stock": 45
+    },
+    {
+      "id": 358,
+      "sku": "BERGRL230358",
+      "nombre": "Bermuda",
+      "precioCOP": 54595,
+      "color": "Gris",
+      "talla": "L",
+      "año": 2023,
+      "stock": 21
+    },
+    {
+      "id": 359,
+      "sku": "SHOMOXL230359",
+      "nombre": "Short",
+      "precioCOP": 42265,
+      "color": "Morado",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 25
+    },
+    {
+      "id": 360,
+      "sku": "PARNAS200360",
+      "nombre": "Parka",
+      "precioCOP": 55218,
+      "color": "Naranja",
+      "talla": "S",
+      "año": 2020,
+      "stock": 93
+    },
+    {
+      "id": 361,
+      "sku": "CAMVEL230361",
+      "nombre": "Camisa",
+      "precioCOP": 162265,
+      "color": "Verde",
+      "talla": "L",
+      "año": 2023,
+      "stock": 39
+    },
+    {
+      "id": 362,
+      "sku": "VESMAXXL200362",
+      "nombre": "Vestido",
+      "precioCOP": 33775,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 86
+    },
+    {
+      "id": 363,
+      "sku": "CAMNAXL240363",
+      "nombre": "Camisa",
+      "precioCOP": 152927,
+      "color": "Naranja",
+      "talla": "XL",
+      "año": 2024,
+      "stock": 5
+    },
+    {
+      "id": 364,
+      "sku": "VESVES240364",
+      "nombre": "Vestido",
+      "precioCOP": 37203,
+      "color": "Verde",
+      "talla": "S",
+      "año": 2024,
+      "stock": 21
+    },
+    {
+      "id": 365,
+      "sku": "BLUMOS240365",
+      "nombre": "Blusa",
+      "precioCOP": 36429,
+      "color": "Morado",
+      "talla": "S",
+      "año": 2024,
+      "stock": 85
+    },
+    {
+      "id": 366,
+      "sku": "BLUMOL210366",
+      "nombre": "Blusa",
+      "precioCOP": 174281,
+      "color": "Morado",
+      "talla": "L",
+      "año": 2021,
+      "stock": 69
+    },
+    {
+      "id": 367,
+      "sku": "FALMAL190367",
+      "nombre": "Falda",
+      "precioCOP": 242308,
+      "color": "Marrón",
+      "talla": "L",
+      "año": 2019,
+      "stock": 6
+    },
+    {
+      "id": 368,
+      "sku": "SUDGRXS230368",
+      "nombre": "Sudadera",
+      "precioCOP": 120634,
+      "color": "Gris",
+      "talla": "XS",
+      "año": 2023,
+      "stock": 86
+    },
+    {
+      "id": 369,
+      "sku": "PANMAS230369",
+      "nombre": "Pantalón",
+      "precioCOP": 123646,
+      "color": "Marrón",
+      "talla": "S",
+      "año": 2023,
+      "stock": 80
+    },
+    {
+      "id": 370,
+      "sku": "CHAAZXL240370",
+      "nombre": "Chaqueta",
+      "precioCOP": 198082,
+      "color": "Azul",
+      "talla": "XL",
+      "año": 2024,
+      "stock": 80
+    },
+    {
+      "id": 371,
+      "sku": "CHAAMXXL200371",
+      "nombre": "Chaqueta",
+      "precioCOP": 209988,
+      "color": "Amarillo",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 51
+    },
+    {
+      "id": 372,
+      "sku": "SHOVEXXL190372",
+      "nombre": "Short",
+      "precioCOP": 105242,
+      "color": "Verde",
+      "talla": "XXL",
+      "año": 2019,
+      "stock": 5
+    },
+    {
+      "id": 373,
+      "sku": "SUÉAZXL240373",
+      "nombre": "Suéter",
+      "precioCOP": 184758,
+      "color": "Azul",
+      "talla": "XL",
+      "año": 2024,
+      "stock": 72
+    },
+    {
+      "id": 374,
+      "sku": "VESAZXL210374",
+      "nombre": "Vestido",
+      "precioCOP": 198848,
+      "color": "Azul",
+      "talla": "XL",
+      "año": 2021,
+      "stock": 72
+    },
+    {
+      "id": 375,
+      "sku": "TOPMAXXL210375",
+      "nombre": "Top",
+      "precioCOP": 44177,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2021,
+      "stock": 39
+    },
+    {
+      "id": 376,
+      "sku": "TOPAMXXL240376",
+      "nombre": "Top",
+      "precioCOP": 132529,
+      "color": "Amarillo",
+      "talla": "XXL",
+      "año": 2024,
+      "stock": 34
+    },
+    {
+      "id": 377,
+      "sku": "CHANAM230377",
+      "nombre": "Chaleco",
+      "precioCOP": 198224,
+      "color": "Naranja",
+      "talla": "M",
+      "año": 2023,
+      "stock": 25
+    },
+    {
+      "id": 378,
+      "sku": "BERMAXXL200378",
+      "nombre": "Bermuda",
+      "precioCOP": 112925,
+      "color": "Marrón",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 82
+    },
+    {
+      "id": 379,
+      "sku": "SHOAMXL230379",
+      "nombre": "Short",
+      "precioCOP": 56447,
+      "color": "Amarillo",
+      "talla": "XL",
+      "año": 2023,
+      "stock": 66
+    },
+    {
+      "id": 380,
+      "sku": "FALMAM210380",
+      "nombre": "Falda",
+      "precioCOP": 237545,
+      "color": "Marrón",
+      "talla": "M",
+      "año": 2021,
+      "stock": 11
+    },
+    {
+      "id": 381,
+      "sku": "JOGGRS230381",
+      "nombre": "Jogger",
+      "precioCOP": 218023,
+      "color": "Gris",
+      "talla": "S",
+      "año": 2023,
+      "stock": 23
+    },
+    {
+      "id": 382,
+      "sku": "CHANEXXL230382",
+      "nombre": "Chaleco",
+      "precioCOP": 215155,
+      "color": "Negro",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 91
+    },
+    {
+      "id": 383,
+      "sku": "CHAAZL230383",
+      "nombre": "Chaleco",
+      "precioCOP": 111777,
+      "color": "Azul",
+      "talla": "L",
+      "año": 2023,
+      "stock": 44
+    },
+    {
+      "id": 384,
+      "sku": "CHAMOM230384",
+      "nombre": "Chaqueta",
+      "precioCOP": 163691,
+      "color": "Morado",
+      "talla": "M",
+      "año": 2023,
+      "stock": 85
+    },
+    {
+      "id": 385,
+      "sku": "POLMOXXL230385",
+      "nombre": "Polo",
+      "precioCOP": 107417,
+      "color": "Morado",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 48
+    },
+    {
+      "id": 386,
+      "sku": "CHAVEXL190386",
+      "nombre": "Chaleco",
+      "precioCOP": 135664,
+      "color": "Verde",
+      "talla": "XL",
+      "año": 2019,
+      "stock": 58
+    },
+    {
+      "id": 387,
+      "sku": "TOPNAXXL210387",
+      "nombre": "Top",
+      "precioCOP": 169363,
+      "color": "Naranja",
+      "talla": "XXL",
+      "año": 2021,
+      "stock": 28
+    },
+    {
+      "id": 388,
+      "sku": "PANAZXS210388",
+      "nombre": "Pantalón",
+      "precioCOP": 136124,
+      "color": "Azul",
+      "talla": "XS",
+      "año": 2021,
+      "stock": 79
+    },
+    {
+      "id": 389,
+      "sku": "CHABLXXL200389",
+      "nombre": "Chaqueta",
+      "precioCOP": 96751,
+      "color": "Blanco",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 17
+    },
+    {
+      "id": 390,
+      "sku": "JOGMOM190390",
+      "nombre": "Jogger",
+      "precioCOP": 67497,
+      "color": "Morado",
+      "talla": "M",
+      "año": 2019,
+      "stock": 49
+    },
+    {
+      "id": 391,
+      "sku": "JOGBLS240391",
+      "nombre": "Jogger",
+      "precioCOP": 113277,
+      "color": "Blanco",
+      "talla": "S",
+      "año": 2024,
+      "stock": 68
+    },
+    {
+      "id": 392,
+      "sku": "ABRAZS210392",
+      "nombre": "Abrigo",
+      "precioCOP": 227806,
+      "color": "Azul",
+      "talla": "S",
+      "año": 2021,
+      "stock": 73
+    },
+    {
+      "id": 393,
+      "sku": "PARBLXXL230393",
+      "nombre": "Parka",
+      "precioCOP": 217631,
+      "color": "Blanco",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 52
+    },
+    {
+      "id": 394,
+      "sku": "LEGAZXXL200394",
+      "nombre": "Leggins",
+      "precioCOP": 244417,
+      "color": "Azul",
+      "talla": "XXL",
+      "año": 2020,
+      "stock": 49
+    },
+    {
+      "id": 395,
+      "sku": "FALNES240395",
+      "nombre": "Falda",
+      "precioCOP": 227389,
+      "color": "Negro",
+      "talla": "S",
+      "año": 2024,
+      "stock": 81
+    },
+    {
+      "id": 396,
+      "sku": "TOPROXXL230396",
+      "nombre": "Top",
+      "precioCOP": 157021,
+      "color": "Rojo",
+      "talla": "XXL",
+      "año": 2023,
+      "stock": 50
+    },
+    {
+      "id": 397,
+      "sku": "ABRAZL240397",
+      "nombre": "Abrigo",
+      "precioCOP": 68620,
+      "color": "Azul",
+      "talla": "L",
+      "año": 2024,
+      "stock": 89
+    },
+    {
+      "id": 398,
+      "sku": "JEAVEM230398",
+      "nombre": "Jeans",
+      "precioCOP": 197227,
+      "color": "Verde",
+      "talla": "M",
+      "año": 2023,
+      "stock": 12
+    },
+    {
+      "id": 399,
+      "sku": "TOPGRL190399",
+      "nombre": "Top",
+      "precioCOP": 247014,
+      "color": "Gris",
+      "talla": "L",
+      "año": 2019,
+      "stock": 41
+    },
+    {
+      "id": 400,
+      "sku": "JOGAML190400",
+      "nombre": "Jogger",
+      "precioCOP": 34593,
+      "color": "Amarillo",
+      "talla": "L",
+      "año": 2019,
+      "stock": 79
+    }
+  ]
+}

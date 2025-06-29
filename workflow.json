@@ -1,0 +1,352 @@
+{
+  "name": "Reto_Mailo_Tech_Calificacion_Leads_Definitivo",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "leads/whatsapp",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "name": "01_Webhook_Entrada",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        450,
+        350
+      ],
+      "id": "e83344d5-e991-447e-8c3b-93f2f872f2e7"
+    },
+    {
+      "parameters": {
+        "functionCode": "// --- 02_Normalizar_Lead (VERSIÓN FINAL DEFINITIVA) ---\n// Objetivo: Cargar el estado de la conversación de forma robusta y preparar los datos.\n\nconst payload = items[0].json.body || items[0].json;\n\nlet etapa = payload.etapa;\nlet name = payload.name;\nlet email = payload.email;\nlet convo = payload.convo;\n\netapa = etapa || 'inicio';\nname = name || null;\nemail = email || null;\nconvo = convo || [];\n\nconst from = payload.from || 'unknown';\nconst msgInicial = payload.message || '';\n\nconst timestamp = new Date().toISOString();\nif (msgInicial) {\n    convo.push({ role: 'user', text: msgInicial, timestamp });\n}\n\nconst resultado = {\n  phone: from,\n  msgInicial: String(msgInicial).trim(),\n  timestamp,\n  etapa,\n  name,\n  email,\n  convo,\n};\n\nreturn [{ json: resultado }];"
+      },
+      "name": "02_Normalizar_Lead",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        650,
+        350
+      ],
+      "id": "278c52d8-21d4-42f8-bd69-c967cae01de6"
+    },
+    {
+      "parameters": {
+        "functionCode": "// --- 03_Agente_Principal (CON AJUSTES FINALES) ---\n// Objetivo: Gestionar el diálogo, capturar datos y decidir la siguiente acción.\n\nconst lead = $json;\nlet { etapa, msgInicial, convo, name, email } = lead;\n\nlet respuestaBot = '';\nlet nuevaEtapa = etapa;\nlet realizarBusqueda = false;\n\nconst mensajeLower = msgInicial.toLowerCase();\n\nif (etapa === 'inicio') {\n  respuestaBot = '¡Hola! 👋 Soy tu asistente virtual de Mailo Technologies. Para comenzar, ¿podrías indicarme tu nombre completo?';\n  nuevaEtapa = 'capturando_nombre';\n\n} else if (etapa === 'capturando_nombre') {\n  let nombreExtraido = msgInicial.trim()\n    .replace(/mi nombre es/i, '')\n    .replace(/me llamo/i, '')\n    .replace(/soy/i, '')\n    .trim();\n\n  if (nombreExtraido.length > 2 && /^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s]+$/.test(nombreExtraido)) {\n    name = nombreExtraido;\n    respuestaBot = `¡Gracias ${name}! 😊 Ahora, por favor, dame tu correo electrónico.`;\n    nuevaEtapa = 'capturando_email';\n  } else {\n    respuestaBot = 'Por favor, ingresa un nombre válido (mínimo 3 letras, sin números ni símbolos).';\n    nuevaEtapa = 'capturando_nombre';\n  }\n\n} else if (etapa === 'capturando_email') {\n  const match = msgInicial.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-zA-Z0-9_-]+)/);\n  const emailExtraido = match ? match[0] : null;\n\n  if (emailExtraido) {\n    email = emailExtraido;\n    respuestaBot = `¡Perfecto, ${name}! Correo guardado. 📧\\n\\nAhora cuéntame, ¿qué tipo de productos estás buscando?`;\n    nuevaEtapa = 'listo_para_busqueda';\n  } else {\n    respuestaBot = 'Ese no parece un correo válido. Por favor, intenta de nuevo (ej: usuario@dominio.com).';\n    nuevaEtapa = 'capturando_email';\n  }\n\n} else if (etapa === 'listo_para_busqueda') {\n  const palabrasProducto = ['busco', 'necesito', 'quiero', 'tienes', 'ropa', 'camiseta', 'pantalón', 'chaqueta', 'jeans', 'zapatos', 'accesorios'];\n  const esConsulta = palabrasProducto.some(p => mensajeLower.includes(p));\n\n  if (esConsulta) {\n    respuestaBot = `Entendido, buscando productos relacionados con \"${msgInicial}\". Un momento...`;\n    nuevaEtapa = 'busqueda_productos';\n    realizarBusqueda = true;\n  } else {\n    respuestaBot = 'No he entendido tu consulta. Intenta usar palabras como \"busco\", \"necesito\" o el nombre de un producto.';\n    nuevaEtapa = 'listo_para_busqueda';\n  }\n\n} else {\n  respuestaBot = '¡Hola! ¿En qué puedo ayudarte hoy?';\n  nuevaEtapa = 'inicio';\n}\n\nlead.convo.push({ role: 'bot', text: respuestaBot, timestamp: new Date().toISOString() });\n\nconst resultado = {\n  ...lead,\n  name,\n  email,\n  etapa: nuevaEtapa,\n  respuestaBot,\n  realizarBusqueda\n};\n\nreturn [{ json: resultado }];"
+      },
+      "name": "03_Agente_Principal",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        850,
+        350
+      ],
+      "id": "19b5247c-502a-4363-ac9d-d81615c44ea9"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "{{$json.realizarBusqueda}}",
+              "value2": true
+            }
+          ]
+        }
+      },
+      "name": "04_IF_Es_Busqueda",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        1050,
+        350
+      ],
+      "id": "68805eb4-8664-4632-9ab2-a1699709d73d"
+    },
+    {
+      "parameters": {
+        "functionCode": "// --- 05_RAG_Embeddings ---\n// Objetivo: Interpretar el mensaje del usuario para convertirlo en parámetros de búsqueda para la API.\n\nconst { msgInicial } = $json;\n\nconst palabrasClave = {\n  'ropa': ['camiseta', 'pantalón', 'chaqueta', 'sudadera', 'falda', 'vestido', 'blusa', 'abrigo', 'suéter', 'jeans', 'polo', 'camisa'],\n  'colores': ['rojo', 'azul', 'verde', 'negro', 'blanco', 'gris', 'amarillo', 'naranja', 'morado', 'marrón'],\n  'tallas': ['xs', 's', 'm', 'l', 'xl', 'xxl'],\n  'precios': ['barato', 'económico', 'caro', 'premium', 'oferta', 'descuento']\n};\n\nconst mensaje = (msgInicial || '').toLowerCase();\nlet queryParams = [];\n\nObject.entries(palabrasClave).forEach(([categoria, palabras]) => {\n  palabras.forEach(palabra => {\n    if (mensaje.includes(palabra)) {\n      queryParams.push(`q=${palabra}`);\n    }\n  });\n});\n\nif (queryParams.length === 0) {\n  const terminos = msgInicial.split(' ').filter(t => t.length > 2);\n  terminos.forEach(termino => queryParams.push(`q=${termino}`));\n}\n\nif (queryParams.length === 0) {\n  queryParams.push('q=');\n}\n\nconst queryFinal = queryParams.join('&');\n\nreturn [{\n  json: {\n    ...$json,\n    queryParams: queryFinal\n  }\n}];"
+      },
+      "name": "05_RAG_Embeddings",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        1250,
+        250
+      ],
+      "id": "fe399c49-0157-41ab-8581-2244f78326e6"
+    },
+    {
+      "parameters": {
+        "url": "http://localhost:3000/products?{{$json.queryParams}}",
+        "options": {}
+      },
+      "name": "06_Buscar_Producto_API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "position": [
+        1450,
+        250
+      ],
+      "id": "14f2e967-7359-42b7-849c-f9ed9c424074"
+    },
+    {
+      "parameters": {
+        "functionCode": "// --- 07_Agente_Interactivo_Respuesta (CON AJUSTE) ---\n// Objetivo: Formatear los productos encontrados en una respuesta amigable para el usuario.\n\nconst lead = items[0].json;\nconst productos = items[1].json; \n\nif (!productos || productos.length === 0) {\n  lead.respuestaBot = `Lo siento, no encontré productos que coincidan con \"${lead.msgInicial}\". ¿Quieres intentar con otra descripción?`;\n  lead.etapa = 'listo_para_busqueda'; \n  lead.productos = [];\n} else {\n  const productosMostrar = productos.slice(0, 3);\n  const resumen = productosMostrar.map(p => {\n    const precio = p.precioCOP.toLocaleString('es-CO', { style: 'currency', currency: 'COP' });\n    return `• ${p.nombre} (Color: ${p.color}, Talla: ${p.talla}) - ${precio}`;\n  }).join('\\n');\n\n  let respuesta = `¡Claro! Encontré estos productos para ti:\\n\\n${resumen}`;\n\n  if (productos.length > 3) {\n    respuesta += `\\n\\n💡 Encontré ${productos.length} productos en total. ¿Te gustaría ver más o que filtre por algo en específico?`;\n  }\n\n  lead.respuestaBot = respuesta;\n  lead.etapa = 'listo_para_busqueda'; \n  lead.productos = productos; \n}\n\nlead.convo.push({ role: 'bot', text: lead.respuestaBot, timestamp: new Date().toISOString() });\n\nreturn [{ json: lead }];"
+      },
+      "name": "07_Agente_Interactivo_Respuesta",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        1650,
+        250
+      ],
+      "id": "54d8995a-6058-450b-9993-3b1a3036bb5c"
+    },
+    {
+      "parameters": {
+        "functionCode": "// --- 08_Agente_Calificacion (CON AJUSTE) ---\n// Objetivo: Calificar al lead según los criterios del reto.\n\nconst lead = $json;\nconst productos = lead.productos || [];\n\nlet tipoLead = 'C';\nlet score = 0;\nlet precioMax = 0;\nlet precioPromedio = 0;\n\nif (productos.length > 0) {\n  const precios = productos.map(p => p.precioCOP);\n  precioMax = Math.max(...precios);\n  precioPromedio = precios.reduce((a, b) => a + b, 0) / precios.length;\n\n  if (precioMax > 200000) {\n    tipoLead = 'A';\n    score = 90;\n  } else if (precioMax >= 100000 && precioMax <= 200000) {\n    tipoLead = 'B';\n    score = 60;\n  } else {\n    tipoLead = 'C';\n    score = 30;\n  }\n} else {\n  tipoLead = 'C';\n  score = 10;\n}\n\nif (lead.name && lead.email) {\n  score += 10;\n}\n\nlead.tipoLead = tipoLead;\nlead.scoreCalificacion = Math.min(score, 100);\nlead.precioMax = precioMax;\nlead.precioPromedio = precioPromedio;\nlead.productosInteresados = productos.length;\n\nswitch (tipoLead) {\n  case 'A':\n    lead.accionSiguiente = 'Contacto inmediato por asesor VIP';\n    break;\n  case 'B':\n    lead.accionSiguiente = 'Contacto en las próximas 2 horas';\n    break;\n  default:\n    lead.accionSiguiente = 'Enviar catálogo por email y añadir a newsletter';\n    break;\n}\n\nreturn [{ json: lead }];"
+      },
+      "name": "08_Agente_Calificacion",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        1850,
+        350
+      ],
+      "id": "61026402-23f2-45e0-8da4-f58c73c09f87"
+    },
+    {
+      "parameters": {
+        "functionCode": "// --- 09_Preparar_Datos_Sheets ---\n// Objetivo: Seleccionar y formatear los datos finales que se insertarán en Google Sheets.\n\nconst lead = $json;\n\nconst datosParaSheets = {\n  name: lead.name || 'N/A',\n  phone: lead.phone || 'N/A',\n  email: lead.email || 'N/A',\n  tipo_lead: lead.tipoLead || 'C',\n  score_calificacion: lead.scoreCalificacion || 0,\n  precio_maximo: lead.precioMax || 0,\n  precio_promedio: lead.precioPromedio || 0,\n  productos_interesados: lead.productosInteresados || 0,\n  accion_siguiente: lead.accionSiguiente || 'N/A',\n  fecha: new Date().toISOString(),\n  conversacion_completa: JSON.stringify(lead.convo, null, 2)\n};\n\nreturn [{ json: datosParaSheets }];"
+      },
+      "name": "09_Preparar_Datos_Sheets",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        2050,
+        350
+      ],
+      "id": "314f8d9b-980b-4265-a87f-e2c7a36f69ad"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1znA4j075Bgt2l_qnfe8rKWKnQ6DkL03nW4VpFOtbpbE",
+          "mode": "url"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Hoja1",
+          "mode": "list"
+        },
+        "operation": "append",
+        "fields": {
+          "values": [
+            {
+              "__rl": true,
+              "fieldId": "name",
+              "value": "={{$json[\"name\"]}}"
+            },
+            {
+              "__rl": true,
+              "fieldId": "phone",
+              "value": "={{$json[\"phone\"]}}"
+            },
+            {
+              "__rl": true,
+              "fieldId": "email",
+              "value": "={{$json[\"email\"]}}"
+            },
+            {
+              "__rl": true,
+              "fieldId": "tipo_lead",
+              "value": "={{$json[\"tipo_lead\"]}}"
+            },
+            {
+              "__rl": true,
+              "fieldId": "score_calificacion",
+              "value": "={{$json[\"score_calificacion\"]}}"
+            },
+            {
+              "__rl": true,
+              "fieldId": "precio_maximo",
+              "value": "={{$json[\"precio_maximo\"]}}"
+            },
+            {
+              "__rl": true,
+              "fieldId": "precio_promedio",
+              "value": "={{$json[\"precio_promedio\"]}}"
+            },
+            {
+              "__rl": true,
+              "fieldId": "productos_interesados",
+              "value": "={{$json[\"productos_interesados\"]}}"
+            },
+            {
+              "__rl": true,
+              "fieldId": "accion_siguiente",
+              "value": "={{$json[\"accion_siguiente\"]}}"
+            },
+            {
+              "__rl": true,
+              "fieldId": "fecha",
+              "value": "={{$json[\"fecha\"]}}"
+            },
+            {
+              "__rl": true,
+              "fieldId": "conversacion_completa",
+              "value": "={{$json[\"conversacion_completa\"]}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "10_Registro_Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 3,
+      "position": [
+        2250,
+        350
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "YOUR_CREDENTIALS_ID",
+          "name": "Your Google Sheets Account"
+        }
+      },
+      "id": "b3e34b9d-a417-48f8-b391-4ac3959ceca4"
+    },
+    {
+      "parameters": {},
+      "name": "Merge",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 2,
+      "position": [
+        1850,
+        350
+      ],
+      "id": "a63e9f33-1463-42e8-b770-4fcd033d5e2e"
+    }
+  ],
+  "connections": {
+    "01_Webhook_Entrada": {
+      "main": [
+        [
+          {
+            "node": "02_Normalizar_Lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "02_Normalizar_Lead": {
+      "main": [
+        [
+          {
+            "node": "03_Agente_Principal",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "03_Agente_Principal": {
+      "main": [
+        [
+          {
+            "node": "04_IF_Es_Busqueda",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "04_IF_Es_Busqueda": {
+      "main": [
+        [
+          {
+            "node": "05_RAG_Embeddings",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "05_RAG_Embeddings": {
+      "main": [
+        [
+          {
+            "node": "06_Buscar_Producto_API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "06_Buscar_Producto_API": {
+      "main": [
+        [
+          {
+            "node": "07_Agente_Interactivo_Respuesta",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "07_Agente_Interactivo_Respuesta": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "08_Agente_Calificacion": {
+      "main": [
+        [
+          {
+            "node": "09_Preparar_Datos_Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "09_Preparar_Datos_Sheets": {
+      "main": [
+        [
+          {
+            "node": "10_Registro_Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "08_Agente_Calificacion",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
